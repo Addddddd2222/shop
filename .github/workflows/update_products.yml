@@ -18,13 +18,10 @@ jobs:
         with:
           python-version: '3.10'
       
-      - name: Create data folder
-        run: mkdir -p data
-      
-      - name: Create products file
+      - name: Create data folder and products
         run: |
-          cat > data/poizon_products_with_rub.json << 'EOF'
-          [
+          mkdir -p data
+          echo '[
             {
               "name": "Nike Air Force 1",
               "brand": "Nike",
@@ -53,13 +50,12 @@ jobs:
               "price_yuan": 1299,
               "image": ""
             }
-          ]
-          EOF
+          ]' > data/poizon_products_with_rub.json
       
       - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add data/poizon_products_with_rub.json
-          git diff --staged --quiet || git commit -m "🔄 Автообновление товаров"
-          git push
+          git commit -m "🔄 Автообновление товаров" || echo "No changes to commit"
+          git push || echo "No changes to push"
