@@ -13,14 +13,8 @@ BOT_TOKEN = "8839915917:AAHRdJ6WYs4En3PQ5Fdr2cxjTFDBgyxIzZM"
 MY_TELEGRAM_ID = 6067124228
 WEB_APP_URL = "https://addddddd2222.github.io/shop/"
 
-# Читаем ключ OpenRouter из файла
-OPENROUTER_KEY = None
-try:
-    with open('config/key.txt', 'r') as f:
-        OPENROUTER_KEY = f.read().strip()
-        print("✅ Ключ OpenRouter загружен")
-except FileNotFoundError:
-    print("⚠️ Файл config/key.txt не найден! ИИ не будет работать.")
+# ===== КЛЮЧ OPENROUTER (ВСТАВЬТЕ ВАШ КЛЮЧ СЮДА) =====
+OPENROUTER_KEY = "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"  # ← ЗАМЕНИТЕ НА РЕАЛЬНЫЙ КЛЮЧ
 
 # ===== ИНИЦИАЛИЗАЦИЯ =====
 bot = Bot(token=BOT_TOKEN)
@@ -127,8 +121,8 @@ async def handle_ai_request(message: types.Message, state: FSMContext):
         await message.answer("Вы вернулись в главное меню:", reply_markup=get_main_keyboard())
         return
 
-    if not OPENROUTER_KEY:
-        await message.answer("⚠️ ИИ-помощник недоступен: ключ не найден.")
+    if not OPENROUTER_KEY or OPENROUTER_KEY == "ВАШ_КЛЮЧ_СЮДА":
+        await message.answer("⚠️ ИИ-помощник недоступен: ключ не настроен.")
         return
 
     await bot.send_chat_action(chat_id=message.chat.id, action="typing")
