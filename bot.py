@@ -8,16 +8,28 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 
+# ===== НАСТРОЙКИ =====
 BOT_TOKEN = "8839915917:AAHRdJ6WYs4En3PQ5Fdr2cxjTFDBgyxIzZM"
 MY_TELEGRAM_ID = 6067124228
 WEB_APP_URL = "https://addddddd2222.github.io/shop/"
 
+# Читаем ключ OpenRouter из файла
+OPENROUTER_KEY = None
+try:
+    with open('config/key.txt', 'r') as f:
+        OPENROUTER_KEY = f.read().strip()
+        print("✅ Ключ OpenRouter загружен")
+except FileNotFoundError:
+    print("⚠️ Файл config/key.txt не найден! ИИ не будет работать.")
+
+# ===== ИНИЦИАЛИЗАЦИЯ =====
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
 class BotStates(StatesGroup):
     waiting_for_ai = State()
 
+# ===== КЛАВИАТУРЫ =====
 def get_main_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="👟 Открыть магазин Legit Drop", web_app=WebAppInfo(url=WEB_APP_URL))],
@@ -30,6 +42,7 @@ def get_exit_keyboard():
         [InlineKeyboardButton(text="❌ Выйти из чата с ИИ", callback_data="exit_ai_chat")]
     ])
 
+# ===== ОБРАБОТЧИКИ =====
 @dp.message(CommandStart())
 async def start_cmd(message: types.Message):
     await message.answer(
@@ -105,7 +118,7 @@ async def handle_web_app_data(message: types.Message):
         print(f"Ошибка: {e}")
         await message.answer("⚠️ Ошибка при оформлении заказа. Попробуйте ещё раз.")
 
-# ===== ИИ-ЧАТ =====
+# ===== ОБРАБОТЧИК ИИ-ЧАТА С OPENROUTER =====
 @dp.message(BotStates.waiting_for_ai)
 async def handle_ai_request(message: types.Message, state: FSMContext):
     text_check = message.text.lower().strip()
@@ -114,8 +127,40 @@ async def handle_ai_request(message: types.Message, state: FSMContext):
         await message.answer("Вы вернулись в главное меню:", reply_markup=get_main_keyboard())
         return
 
+    if not OPENROUTER_KEY:
+        await message.answer("⚠️ ИИ-помощник недоступен: ключ не найден.")
+        return
+
     await bot.send_chat_action(chat_id=message.chat.id, action="typing")
-    await message.answer("🤖 ИИ-помощник временно недоступен. Пожалуйста, используйте кнопки меню.", reply_markup=get_exit_keyboard())
+
+    url = "https://openrouter.ai/api/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_KEY}",
+        "Content-Type": "application/json"
+    }
+    payload = {
+        "model": "openrouter/free",
+        "messages": [
+            {
+                "role": "system",
+                "content": "Ты — живой, вежливый ассистент стритвир-магазина Legit Drop. Общайся ВЕЖЛЕВО, как человек. Помогай подобрать кроссовки и шмот. Не используй дурацкий сленг. Отвечай коротко и только на русском языке."
+            },
+            {"role": "user", "content": message.text}
+        ]
+    }
+
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.post(url, headers=headers, json=payload) as response:
+                if response.status == 200:
+                    data = await response.json()
+                    answer = data['choices'][0]['message']['content']
+                else:
+                    answer = f"⚠️ Ошибка сервера ИИ (Код: {response.status})."
+    except Exception as e:
+        answer = f"⚠️ Не удалось связаться с ИИ. Ошибка: {str(e)}"
+
+    await message.answer(answer, reply_markup=get_exit_keyboard())
 
 # ===== ВСЕ ОСТАЛЬНЫЕ СООБЩЕНИЯ =====
 @dp.message()
