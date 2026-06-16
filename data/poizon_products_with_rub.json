@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Nike Dunk Low Panda",
+    "brand": "Nike",
+    "price_rub": 15990,
+    "price_yuan": 899,
+    "image": "https://example.com/nike-dunk-low-panda.jpg"
+  },
+  {
+    "name": "Adidas Samba OG",
+    "brand": "Adidas",
+    "price_rub": 12990,
+    "price_yuan": 799,
+    "image": "https://example.com/adidas-samba-og.jpg"
+  },
+  {
+    "name": "New Balance 550",
+    "brand": "New Balance",
+    "price_rub": 14990,
+    "price_yuan": 999,
+    "image": "https://example.com/nb-550.jpg"
+  },
+  {
+    "name": "Jordan 4 Retro",
+    "brand": "Jordan",
+    "price_rub": 24990,
+    "price_yuan": 1499,
+    "image": "https://example.com/jordan-4.jpg"
+  }
+]
