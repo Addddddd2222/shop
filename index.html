@@ -23,12 +23,12 @@
             max-width: 420px;
             width: 100%;
         }
-        /* Логотип */
+        /* Шапка */
         .header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 18px;
+            margin-bottom: 16px;
         }
         .logo-block {
             display: flex;
@@ -38,6 +38,7 @@
         .logo-block svg {
             width: 40px;
             height: 40px;
+            flex-shrink: 0;
         }
         .logo-text {
             font-size: 22px;
@@ -51,6 +52,9 @@
             gap: 14px;
             font-size: 22px;
         }
+        .header-icons span {
+            cursor: pointer;
+        }
         /* Поиск */
         .search {
             width: 100%;
@@ -63,17 +67,27 @@
             outline: none;
             margin-bottom: 16px;
         }
-        /* Категории */
+        /* Категории (горизонтальный скролл) */
         .cats {
             display: flex;
             gap: 10px;
             overflow-x: auto;
             padding-bottom: 12px;
             margin-bottom: 20px;
-            scrollbar-width: none;
+            scrollbar-width: thin;
+            scrollbar-color: #27e9ff #111;
+            -webkit-overflow-scrolling: touch;
         }
         .cats::-webkit-scrollbar {
-            display: none;
+            height: 4px;
+        }
+        .cats::-webkit-scrollbar-track {
+            background: #111;
+            border-radius: 10px;
+        }
+        .cats::-webkit-scrollbar-thumb {
+            background: #27e9ff;
+            border-radius: 10px;
         }
         .cat {
             flex-shrink: 0;
@@ -85,11 +99,16 @@
             cursor: pointer;
             white-space: nowrap;
             border: 1px solid transparent;
+            transition: 0.2s;
+            user-select: none;
         }
         .cat.active {
             background: #27e9ff;
             color: #050505;
             font-weight: 600;
+            border-color: #27e9ff;
+        }
+        .cat:hover {
             border-color: #27e9ff;
         }
         /* Баннер */
@@ -118,6 +137,7 @@
             font-weight: 700;
             color: #050505;
             cursor: pointer;
+            font-size: 14px;
         }
         /* Товары */
         .section-title {
@@ -131,6 +151,7 @@
             color: #27e9ff;
             font-size: 14px;
             cursor: pointer;
+            font-weight: 400;
         }
         .grid {
             display: grid;
@@ -229,7 +250,7 @@
             align-items: center;
         }
         .bottom-bar .cart-info {
-            font-size: 14px;
+            font-size: 13px;
             color: #aaa;
         }
         .bottom-bar .cart-total {
@@ -267,9 +288,13 @@
             align-items: center;
             cursor: pointer;
             font-size: 22px;
+            gap: 2px;
         }
         .bottom-bar .nav span.active {
             color: #27e9ff;
+        }
+        .bottom-bar .nav span .label {
+            font-size: 9px;
         }
         /* Модалки */
         .modal {
@@ -344,6 +369,8 @@
             border-radius: 40px;
             font-weight: 600;
             z-index: 300;
+            font-size: 14px;
+            white-space: nowrap;
         }
         .toast.show {
             display: block;
@@ -354,10 +381,10 @@
 
 <div class="app" id="app">
 
-    <!-- Шапка -->
+    <!-- ШАПКА -->
     <div class="header">
         <div class="logo-block">
-            <!-- ЛОГОТИП (встроенный SVG) -->
+            <!-- ЛОГОТИП (коробка с галочкой) -->
             <svg viewBox="0 0 40 40" fill="none">
                 <rect x="2" y="2" width="36" height="36" rx="8" fill="#27e9ff" />
                 <rect x="6" y="6" width="28" height="28" rx="4" fill="#050505" />
@@ -372,10 +399,10 @@
         </div>
     </div>
 
-    <!-- Поиск -->
+    <!-- ПОИСК -->
     <input class="search" id="searchInput" placeholder="Поиск одежды...">
 
-    <!-- Категории -->
+    <!-- КАТЕГОРИИ (ГОРИЗОНТАЛЬНЫЙ СКРОЛЛ) -->
     <div class="cats" id="cats">
         <span class="cat active" data-filter="all">Все</span>
         <span class="cat" data-filter="Кроссовки">Кроссовки</span>
@@ -383,9 +410,11 @@
         <span class="cat" data-filter="Футболки">Футболки</span>
         <span class="cat" data-filter="Куртки">Куртки</span>
         <span class="cat" data-filter="Штаны">Штаны</span>
+        <span class="cat" data-filter="Аксессуары">Аксессуары</span>
+        <span class="cat" data-filter="Сумки">Сумки</span>
     </div>
 
-    <!-- Баннер -->
+    <!-- БАННЕР -->
     <div class="banner">
         <div>
             <h2>Новый дроп</h2>
@@ -401,51 +430,51 @@
         </div>
     </div>
 
-    <!-- Популярное -->
+    <!-- ПОПУЛЯРНОЕ -->
     <div class="section-title">
         <span>Популярное</span>
         <a id="seeAllPopular">Смотреть все</a>
     </div>
     <div class="grid" id="popularGrid"></div>
 
-    <!-- Рекомендуем -->
+    <!-- РЕКОМЕНДУЕМ -->
     <div class="section-title">
         <span>Рекомендуем для тебя</span>
         <a id="seeAllRecommended">Смотреть все</a>
     </div>
     <div class="grid" id="recommendedGrid"></div>
 
-    <!-- Каталог (скрыт) -->
+    <!-- КАТАЛОГ (скрыт) -->
     <div id="catalogTab" style="display:none;">
         <div class="section-title"><span>Все товары</span></div>
         <div class="grid" id="catalogGrid"></div>
     </div>
 
-    <!-- Избранное (скрыто) -->
+    <!-- ИЗБРАННОЕ (скрыто) -->
     <div id="favTab" style="display:none;">
         <div class="section-title"><span>❤️ Избранное</span></div>
         <div class="grid" id="favGrid"></div>
     </div>
 
-    <!-- Заказы (скрыто) -->
+    <!-- ЗАКАЗЫ (скрыто) -->
     <div id="ordersTab" style="display:none;">
         <div class="section-title"><span>📦 Заказы</span></div>
         <div id="ordersList"></div>
     </div>
 
-    <!-- Профиль (скрыто) -->
+    <!-- ПРОФИЛЬ (скрыто) -->
     <div id="profileTab" style="display:none;">
         <div class="section-title"><span>👤 Профиль</span></div>
         <div style="background:#111;border-radius:16px;padding:16px;margin-bottom:12px;">
-            <div style="color:#aaa;">Имя</div>
+            <div style="color:#aaa;font-size:14px;">Имя</div>
             <div style="font-size:18px;font-weight:600;" id="profileName">Гость</div>
         </div>
         <div style="background:#111;border-radius:16px;padding:16px;margin-bottom:12px;">
-            <div style="color:#aaa;">Сумма покупок</div>
+            <div style="color:#aaa;font-size:14px;">Сумма покупок</div>
             <div style="color:#27e9ff;font-size:22px;font-weight:700;" id="profileTotal">0 ₽</div>
         </div>
         <div style="background:#111;border-radius:16px;padding:16px;margin-bottom:12px;">
-            <div style="color:#aaa;">Заказов</div>
+            <div style="color:#aaa;font-size:14px;">Заказов</div>
             <div style="font-size:18px;" id="profileOrders">0</div>
         </div>
         <button id="editProfileBtn" style="width:100%;padding:12px;background:#27e9ff;border:none;border-radius:30px;font-weight:700;color:#050505;cursor:pointer;">Редактировать</button>
@@ -453,7 +482,7 @@
 
 </div>
 
-<!-- Фиксированная панель -->
+<!-- ФИКСИРОВАННАЯ ПАНЕЛЬ -->
 <div class="bottom-bar">
     <div class="row">
         <div>
@@ -463,15 +492,15 @@
         <button class="checkout-btn" id="checkoutBtn">Оформить</button>
     </div>
     <div class="nav">
-        <span class="active" data-tab="home">🏠<span style="font-size:9px;">Главная</span></span>
-        <span data-tab="catalog">📋<span style="font-size:9px;">Каталог</span></span>
-        <span data-tab="favorites">❤️<span style="font-size:9px;">Избранное</span></span>
-        <span data-tab="orders">📦<span style="font-size:9px;">Заказы</span></span>
-        <span data-tab="profile">👤<span style="font-size:9px;">Профиль</span></span>
+        <span class="active" data-tab="home">🏠<span class="label">Главная</span></span>
+        <span data-tab="catalog">📋<span class="label">Каталог</span></span>
+        <span data-tab="favorites">❤️<span class="label">Избранное</span></span>
+        <span data-tab="orders">📦<span class="label">Заказы</span></span>
+        <span data-tab="profile">👤<span class="label">Профиль</span></span>
     </div>
 </div>
 
-<!-- Модалка доставки -->
+<!-- МОДАЛКА ДОСТАВКИ -->
 <div class="modal" id="deliveryModal">
     <div class="modal-box">
         <h2>📦 Доставка</h2>
@@ -486,7 +515,7 @@
     </div>
 </div>
 
-<!-- Toast -->
+<!-- TOAST -->
 <div class="toast" id="toast"></div>
 
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -525,9 +554,26 @@
                 }));
                 renderAll();
                 showToast('✅ Товары загружены');
+            } else {
+                // Если файла нет — тестовые товары
+                products = [
+                    { id: 1, brand: 'Nike', name: 'Air Force 1', price: 11990, category: 'Кроссовки', section: 'popular', image: '', sizes: ['S','M','L','XL'], colors: ['Белый','Черный'] },
+                    { id: 2, brand: 'Adidas', name: 'Campus', price: 10990, category: 'Кроссовки', section: 'popular', image: '', sizes: ['S','M','L','XL'], colors: ['Черный','Белый'] },
+                    { id: 3, brand: 'New Balance', name: '2002R', price: 14990, category: 'Кроссовки', section: 'popular', image: '', sizes: ['S','M','L','XL'], colors: ['Серый'] },
+                    { id: 4, brand: 'Jordan', name: '1 Retro', price: 17990, category: 'Кроссовки', section: 'popular', image: '', sizes: ['S','M','L','XL'], colors: ['Красный','Черный'] },
+                ];
+                renderAll();
+                showToast('📦 Тестовые товары');
             }
         } catch (e) {
-            console.log('Ошибка загрузки товаров');
+            // Тестовые товары при ошибке
+            products = [
+                { id: 1, brand: 'Nike', name: 'Air Force 1', price: 11990, category: 'Кроссовки', section: 'popular', image: '', sizes: ['S','M','L','XL'], colors: ['Белый','Черный'] },
+                { id: 2, brand: 'Adidas', name: 'Campus', price: 10990, category: 'Кроссовки', section: 'popular', image: '', sizes: ['S','M','L','XL'], colors: ['Черный','Белый'] },
+                { id: 3, brand: 'New Balance', name: '2002R', price: 14990, category: 'Кроссовки', section: 'popular', image: '', sizes: ['S','M','L','XL'], colors: ['Серый'] },
+                { id: 4, brand: 'Jordan', name: '1 Retro', price: 17990, category: 'Кроссовки', section: 'popular', image: '', sizes: ['S','M','L','XL'], colors: ['Красный','Черный'] },
+            ];
+            renderAll();
         }
     }
 
@@ -603,7 +649,7 @@
         document.getElementById('profileOrders').textContent = orders.length;
     }
 
-    // ===== КАРТОЧКА ТОВАРА =====
+    // ===== КАРТОЧКА =====
     function createCard(p) {
         const card = document.createElement('div');
         card.className = 'card';
@@ -618,14 +664,12 @@
             <button class="add-btn" data-id="${p.id}">В корзину</button>
             <div class="fav" data-id="${p.id}">${favorites.includes(p.id) ? '❤️' : '🤍'}</div>
         `;
-        // Кнопка "В корзину"
         card.querySelector('.add-btn').addEventListener('click', function(e) {
             e.stopPropagation();
             const id = parseInt(this.dataset.id);
             const size = document.getElementById('size-' + id).value;
             toggleCart(id, size, this);
         });
-        // Избранное
         card.querySelector('.fav').addEventListener('click', function(e) {
             e.stopPropagation();
             const id = parseInt(this.dataset.id);
@@ -715,16 +759,24 @@
     function switchTab(tab) {
         const tabs = ['home', 'catalog', 'favorites', 'orders', 'profile'];
         const ids = {
-            home: ['tabHome', 'popularGrid', 'recommendedGrid'],
+            home: ['popularGrid', 'recommendedGrid'],
             catalog: ['catalogTab'],
             favorites: ['favTab'],
             orders: ['ordersTab'],
             profile: ['profileTab']
         };
         tabs.forEach(t => {
-            const el = document.getElementById(ids[t][0]);
-            if (el) el.style.display = (t === tab) ? 'block' : 'none';
+            const els = ids[t];
+            if (Array.isArray(els)) {
+                els.forEach(id => {
+                    const el = document.getElementById(id);
+                    if (el) el.style.display = (t === tab || t === 'home') ? '' : 'none';
+                });
+            }
         });
+        // Показываем/скрываем главную
+        document.getElementById('popularGrid').parentElement.style.display = (tab === 'home') ? '' : 'none';
+        document.getElementById('popularGrid').parentElement.nextElementSibling.style.display = (tab === 'home') ? '' : 'none';
         document.querySelectorAll('.nav span').forEach(el => {
             el.classList.toggle('active', el.dataset.tab === tab);
         });
@@ -755,19 +807,25 @@
     // ===== ИКОНКИ =====
     document.getElementById('favIcon').addEventListener('click', () => {
         switchTab('favorites');
+        document.querySelectorAll('.nav span').forEach(el => {
+            el.classList.toggle('active', el.dataset.tab === 'favorites');
+        });
     });
     document.getElementById('profileIcon').addEventListener('click', () => {
         switchTab('profile');
+        document.querySelectorAll('.nav span').forEach(el => {
+            el.classList.toggle('active', el.dataset.tab === 'profile');
+        });
     });
     document.getElementById('editProfileBtn').addEventListener('click', () => {
         const name = prompt('Введите имя:', profileName);
-        if (name) { profileName = name; localStorage.setItem('legit_profile', JSON.stringify({ name, totalSpent })); renderProfile(); showToast('Имя обновлено'); }
+        if (name) { profileName = name; localStorage.setItem('legit_profile', JSON.stringify({ name, totalSpent })); renderProfile(); showToast('✅ Имя обновлено'); }
     });
 
     // ===== ДОПОЛНИТЕЛЬНО =====
     document.getElementById('dropBtn').addEventListener('click', () => showToast('🔥 Скоро новый дроп!'));
-    document.getElementById('seeAllPopular').addEventListener('click', () => { switchTab('catalog'); showToast('Все популярные'); });
-    document.getElementById('seeAllRecommended').addEventListener('click', () => { switchTab('catalog'); showToast('Все рекомендованные'); });
+    document.getElementById('seeAllPopular').addEventListener('click', () => { switchTab('catalog'); document.querySelector('.nav span[data-tab="catalog"]').click(); showToast('Все популярные'); });
+    document.getElementById('seeAllRecommended').addEventListener('click', () => { switchTab('catalog'); document.querySelector('.nav span[data-tab="catalog"]').click(); showToast('Все рекомендованные'); });
 
     function showToast(msg) {
         const t = document.getElementById('toast');
@@ -777,7 +835,7 @@
         t._timer = setTimeout(() => t.classList.remove('show'), 3000);
     }
 
-    // ===== ЗАГРУЗКА СОХРАНЁННЫХ ДАННЫХ =====
+    // ===== ЗАГРУЗКА ДАННЫХ =====
     try {
         const savedCart = localStorage.getItem('legit_cart');
         if (savedCart) cart = JSON.parse(savedCart);
