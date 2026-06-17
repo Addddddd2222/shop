@@ -3,7 +3,7 @@ name: Run Telegram Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/240 * * * *'  # запуск каждые 4 часа
+    - cron: '*/240 * * * *'
 
 jobs:
   bot:
@@ -23,6 +23,8 @@ jobs:
           pip install aiogram aiohttp
       
       - name: Run bot
+        env:
+          OPENROUTER_KEY: ${{ secrets.OPENROUTER_KEY }}
         run: |
           python bot.py
         continue-on-error: true
