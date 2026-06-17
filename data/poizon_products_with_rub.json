@@ -1,30 +1,1262 @@
 [
   {
-    "name": "Nike Dunk Low Panda",
-    "brand": "Nike",
-    "price_rub": 15990,
-    "price_yuan": 899,
-    "image": "https://example.com/nike-dunk-low-panda.jpg"
+    "name": "jordan travis scott",
+    "price_rub": 7001,
+    "image": "https://cdn-img.thepoizon.ru/node-common/66761ca0-ca01-1761-ea4e-079ba4b97eb8-135-143.png?x-oss-process=image/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
   },
   {
-    "name": "Adidas Samba OG",
-    "brand": "Adidas",
-    "price_rub": 12990,
-    "price_yuan": 799,
-    "image": "https://example.com/adidas-samba-og.jpg"
+    "name": "ГЛАВНАЯ",
+    "price_rub": 7001,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Кроссовки",
+    "brand": "Poizon"
   },
   {
-    "name": "New Balance 550",
-    "brand": "New Balance",
-    "price_rub": 14990,
-    "price_yuan": 999,
-    "image": "https://example.com/nb-550.jpg"
+    "name": "Категория",
+    "price_rub": 7001,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Кроссовки",
+    "brand": "Poizon"
   },
   {
-    "name": "Jordan 4 Retro",
-    "brand": "Jordan",
-    "price_rub": 24990,
-    "price_yuan": 1499,
-    "image": "https://example.com/jordan-4.jpg"
+    "name": "СОРТИРОВАТЬ ПО:",
+    "price_rub": 7001,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "New Balance NB 530 Сетчатая ткань Текстиль Низкий топ Повседневные Городские Коммутатор Беговые кроссовки Унисекс",
+    "price_rub": 7001,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "7 001 ₽",
+    "price_rub": 7001,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Air Force 1 07 Амортизация Дышащая Поддержка Низкий Верх Скейтборд Обувь Мужская Чисто Белая",
+    "price_rub": 9232,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251206/e6d8ceec010d43b398a366a6dfe76265.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "9 232 ₽",
+    "price_rub": 9232,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Adidas Adizero Evo SL Высота Увеличивающие Низкие Кроссовки для Бега и Марафонов Тренировки Мужские Белые Черные",
+    "price_rub": 8528,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251210/4fc3c2ea48614b4f9ac55b137b263c1e.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "8 528 ₽",
+    "price_rub": 8528,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Hyperdunk 2017 Low Топ Баскетбольные кроссовки Мужские Розовые",
+    "price_rub": 6926,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/6ae3281d208b42d98935cc5ae330a259.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "6 926 ₽",
+    "price_rub": 6926,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Air Force 1 'Triple White' Кожа Устойчивая к истиранию Низкая Скейтборд Обувь Женская Чисто Белая",
+    "price_rub": 8267,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230721/61c2ccd326aa4232b257115e05333732.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "8 267 ₽",
+    "price_rub": 8267,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Adidas Adizero Adios Pro 4 Беговые кроссовки для мужчин солнечный синий",
+    "price_rub": 11459,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/b1405eda8e3d4479bcb22e720e99f3e9.png?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "11 459 ₽",
+    "price_rub": 11459,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Zoom Fly 6 Противоскользящая Поддержка Отскок Низкий Топ Марафон Тренировки Длинный Бег Обувь Мужская",
+    "price_rub": 7333,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/9cc24bc1709a4a098ab22a9e12e7e719.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "7 333 ₽",
+    "price_rub": 7333,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "New Balance NB 740 V2 Low Топ Беговые кроссовки Унисекс Белый",
+    "price_rub": 5812,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251210/3906831a12ed4e66bec988b0af2a3081.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "5 812 ₽",
+    "price_rub": 5812,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Air MAX Flame Мягкий и Комфортный Амортизация Низкий Верх Повседневная Обувь Мужская Белый",
+    "price_rub": 4392,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251211/648581ac8424471f9dbac0a0a8c3592f.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "4 392 ₽",
+    "price_rub": 4392,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Ava Rover Low Топ Повседневная ТРЕНИРОВОЧНАЯ БЕЖА Обувь Мужская Черная",
+    "price_rub": 9251,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/a97c9d6e1e7146c48b94419093df0b10.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "9 251 ₽",
+    "price_rub": 9251,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Dunk Амортизация Низкие Кеды Скейтборд Обувь Мужская Белая",
+    "price_rub": 6966,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251205/d3d8d591b1c84d89a8cf9fb036468c92.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "6 966 ₽",
+    "price_rub": 6966,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Air Force 1 Амортизация Низкие Кеды Скейтборд Обувь Женские Белые",
+    "price_rub": 6809,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251206/2ac7d077981a44f9b2763f77d0744d9f.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "6 809 ₽",
+    "price_rub": 6809,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Adidas Adizero Evo SL Противоскользящая Устойчивая к истиранию Увеличение высоты Обувь для тренировок и бега Мужская",
+    "price_rub": 9815,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260125/74ab324f4b744db7a935dc56097bbcac.png?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "9 815 ₽",
+    "price_rub": 9815,
+    "image": "",
+    "category": "Кроссовки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "new balance 1906 a",
+    "price_rub": 10071,
+    "image": "https://cdn-img.thepoizon.ru/node-common/66761ca0-ca01-1761-ea4e-079ba4b97eb8-135-143.png?x-oss-process=image/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "ГЛАВНАЯ",
+    "price_rub": 10071,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Категория",
+    "price_rub": 10071,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "СОРТИРОВАТЬ ПО:",
+    "price_rub": 10071,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240710/d1d2ec7f87a543f4858f9f5bc97a019e.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Timberland 6 Inch Лицевая коровья кожа Устойчивая к истиранию Короткий рабочий стиль Outdoor Мужской",
+    "price_rub": 10071,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240710/d1d2ec7f87a543f4858f9f5bc97a019e.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "10 071 ₽",
+    "price_rub": 10071,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "TIMBERLAND Классический 6 Inch Кожа Устойчивая к Износу Короткий Аутдор Мужской Коричневый",
+    "price_rub": 8948,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251210/2ef9bd58897d44afbec68eb418b7495c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "8 948 ₽",
+    "price_rub": 8948,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Adidas Originals Adimule Без специальных функций Домашние тапочки Унисекс Серый",
+    "price_rub": 6618,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251215/ec564da528314a57b998e72e49588ec1.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "6 618 ₽",
+    "price_rub": 6618,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Adidas Originals Adimule Домашние тапочки Унисекс Коричневый",
+    "price_rub": 8616,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260429/fcfbbccd924d4f31b64bb1eda7b043b0.jpeg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "8 616 ₽",
+    "price_rub": 8616,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Crocs Bayaband ЭВА Сабо Резина Унисекс Серый",
+    "price_rub": 4034,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260408/25105d8a04694007a55d325f16ea2542.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "4 034 ₽",
+    "price_rub": 4034,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "AAA SINCE 1955 Обувь Birkenstock Унисекс",
+    "price_rub": 2188,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251214/ff983ee3bf6c403f84c0c1ecca4ff618.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 188 ₽",
+    "price_rub": 2188,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Crocs Bayaband Clog Sabo Унисекс Экрю",
+    "price_rub": 4103,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250522/f1113d58b5984e46a699517fa0684f28.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "4 103 ₽",
+    "price_rub": 4103,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Adidas Originals Adimule Устойчивые к истиранию закрытые тапочки унисекс коричневые",
+    "price_rub": 6231,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250601/ab679889af5548c18c4006143a38dd60.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "6 231 ₽",
+    "price_rub": 6231,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Timberland Premium Мужские Желтые Ботинки Классические Водонепроницаемые Широкая Колодка Низкие",
+    "price_rub": 10870,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260312/f4a570a9cc9b4fdeb3c88a217edcc52d.jpeg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "10 870 ₽",
+    "price_rub": 10870,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "PUMA X THE Powerpuff Girls Туфли Мэри Джейн Женские Синие и Серебряные",
+    "price_rub": 6619,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260416/2356573a76024563bdab5d6dc2ae1e4a.png?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "6 619 ₽",
+    "price_rub": 6619,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Mind 001 Домашние тапочки Женские Жемчужный порошок",
+    "price_rub": 12126,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260610/beda144d9d8a4d02a4ff89738729159c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "12 126 ₽",
+    "price_rub": 12126,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "CHARLES&KEITH Летние шлепанцы с бантом и клубнично-розовым каблуком 4,7 см на композитной подошве",
+    "price_rub": 6473,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260319/c7a8eb56562a4add966d2c549a8da500.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "6 473 ₽",
+    "price_rub": 6473,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Crocs Classic clog Sabo Rubber 2cm Unisex Gray Crocs Classic clog Sabo Рубиновый 2см Унисекс Серый",
+    "price_rub": 4738,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251212/75e3ceb86d394db0a7f6029406357479.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "4 738 ₽",
+    "price_rub": 4738,
+    "image": "",
+    "category": "Обувь",
+    "brand": "Poizon"
+  },
+  {
+    "name": "puma bmw",
+    "price_rub": 9369,
+    "image": "https://cdn-img.thepoizon.ru/node-common/66761ca0-ca01-1761-ea4e-079ba4b97eb8-135-143.png?x-oss-process=image/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "ГЛАВНАЯ",
+    "price_rub": 9369,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Категория",
+    "price_rub": 9369,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "СОРТИРОВАТЬ ПО:",
+    "price_rub": 9369,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250331/14c4e972bd28436f8b3078a8ed59b613.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "PUMA Пуховик Зимний Мужской Черный",
+    "price_rub": 9369,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250331/14c4e972bd28436f8b3078a8ed59b613.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "9 369 ₽",
+    "price_rub": 9369,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Adidas Originals CTT Темно-серый Унисекс Куртки",
+    "price_rub": 15795,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251105/dfa18320b782447aa9a2a8be89fa9f11.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "15 795 ₽",
+    "price_rub": 15795,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Levis Medium Blue Men's Jeans Левис Средне-синие Мужские Джинсы",
+    "price_rub": 5046,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251224/b558d14f98f549bb93c03934a8a027db.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "5 046 ₽",
+    "price_rub": 5046,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "YEEZY Gosha SS24 T-Shirt Унисекс Черный",
+    "price_rub": 9645,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250310/8165fc699df049388a5ee85a82d6dcd5.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "9 645 ₽",
+    "price_rub": 9645,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "LONSDALE Унисекс Футболки",
+    "price_rub": 2046,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250703/6c1915a6b0a148c8a8c19b5ec871aeb1.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 046 ₽",
+    "price_rub": 2046,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "UNIQLO X JIANFENGCHUANQI T-рубашка унисекс черная",
+    "price_rub": 3472,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250312/2ad219bf7d20467698bd4f8472a18be0.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 472 ₽",
+    "price_rub": 3472,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Adidas Аргентина 26 Дом Аутентичный Футболка Футболка Мужская",
+    "price_rub": 15167,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251107/6ffdc4bf22d2484fbd1972898a6dc84f.jpeg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "15 167 ₽",
+    "price_rub": 15167,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Pirkadat Унисекс Футболки",
+    "price_rub": 1320,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250326/009b290b31634b7880f7eef66b81a913.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "1 320 ₽",
+    "price_rub": 1320,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "UNIQLO X Disney X Formula 1 X Formula 1 T-рубашка Унисекс",
+    "price_rub": 2580,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260228/ddff7da2187247ecbbd96c7fde7f8ef0.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 580 ₽",
+    "price_rub": 2580,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "PUMA Футбол Джерси Фанатская версия Мужская Черно-красная Полосы",
+    "price_rub": 4686,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250523/1fd3a9d1a0384b478655328814f31bc1.png?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "4 686 ₽",
+    "price_rub": 4686,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "AULDEY Унисекс Трикотаж",
+    "price_rub": 2753,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250916/00bee678241249029bdb80b6a0594d79.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 753 ₽",
+    "price_rub": 2753,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "GDRG Унисекс Свитшоты",
+    "price_rub": 3250,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251127/c5cee9e2eb0545cdba8aaa3be4336dd6.png?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 250 ₽",
+    "price_rub": 3250,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "MIRACLE KILL Унисекс Футболка",
+    "price_rub": 1948,
+    "image": "https://cdn-web.poizon.com/web-dewu/noah/og/21ce8e1c-46c3-4e7a-aaab-1a5a2c701aae.png?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "1 948 ₽",
+    "price_rub": 1948,
+    "image": "",
+    "category": "Одежда",
+    "brand": "Poizon"
+  },
+  {
+    "name": "reebok instapump",
+    "price_rub": 2726,
+    "image": "https://cdn-img.thepoizon.ru/node-common/66761ca0-ca01-1761-ea4e-079ba4b97eb8-135-143.png?x-oss-process=image/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "ГЛАВНАЯ",
+    "price_rub": 2726,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Категория",
+    "price_rub": 2726,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "СОРТИРОВАТЬ ПО:",
+    "price_rub": 2726,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20241015/b722b5610a404deb9feab4a97c9efdc8.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "U.S. POLO ASSN. Хлопковые шапки-бини унисекс",
+    "price_rub": 2726,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20241015/b722b5610a404deb9feab4a97c9efdc8.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 726 ₽",
+    "price_rub": 2726,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "MIU MIU Металлические Овалные Солнцезащитные Очки Женские Золото",
+    "price_rub": 28344,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251108/d9df389f4e3f4e7aa898ee00dae7b455.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "28 344 ₽",
+    "price_rub": 28344,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "RayBan Квадратные Солнцезащитные Очки Унисекс Разноцветные",
+    "price_rub": 11937,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250726/ebd5b5d333de440a9bccfef49b872698.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "11 937 ₽",
+    "price_rub": 11937,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "SLEEPYWALK Нейлоновые кепки унисекс",
+    "price_rub": 2287,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250707/a9d5d8af4db741bd8eb9d3bc5a44e130.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 287 ₽",
+    "price_rub": 2287,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Солнцезащитные очки Dior OVAL Унисекс Черные",
+    "price_rub": 26536,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250521/30a870a5bc4f4185bcbb0a086b1146ed.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "26 536 ₽",
+    "price_rub": 26536,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "MIU MIU Металлические фигурные солнцезащитные очки женские золото",
+    "price_rub": 29082,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240812/282f944aff6f41b1aca24b8dcef2a637.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "29 082 ₽",
+    "price_rub": 29082,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "SWATCH Omega Collaboration IOCERAMIC MOONSWATCH Кварцевый механизм 30 м Водонепроницаемые Мужские часы Часы 42 мм",
+    "price_rub": 28795,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240616/1db5f761609940a6b6bad1519e050b13.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "28 795 ₽",
+    "price_rub": 28795,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "CASIO Кварцевый механизм нержавеющая сталь шнуровка часы унисекс черный циферблат",
+    "price_rub": 9016,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250110/add242a000844c3e942347ce4bbd8f06.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "9 016 ₽",
+    "price_rub": 9016,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Nike Injection Molding Фигурные Солнцезащитные Очки Унисекс",
+    "price_rub": 11678,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260112/738f374035cc43958f3983b54df98b90.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "11 678 ₽",
+    "price_rub": 11678,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "MIU MIU Окуляры OVAL SUNGLASSES Унисекс Черные",
+    "price_rub": 23192,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251114/afe63ca68a4448f3bcc892e63bdc9065.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "23 192 ₽",
+    "price_rub": 23192,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Swarovski x Ariana Grande Ariana Grande Capsule Collection Ожерелье с родиевым покрытием Женское Белое",
+    "price_rub": 23560,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250821/2cc147c2c33a44888d092dc8b7726796.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "23 560 ₽",
+    "price_rub": 23560,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Casio Кварцевый механизм нержавеющая сталь ремешок мужские часы зеленый циферблат",
+    "price_rub": 5684,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20231017/fe1d91dd77c34ca396f235ddf8073279.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "5 684 ₽",
+    "price_rub": 5684,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Maserati Tr90 Квадратные Солнцезащитные Очки Унисекс Черные",
+    "price_rub": 4093,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251028/42f66c9cb7814f1ba9bfaddb3325345e.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "4 093 ₽",
+    "price_rub": 4093,
+    "image": "",
+    "category": "Аксессуары",
+    "brand": "Poizon"
+  },
+  {
+    "name": "airforce1",
+    "price_rub": 12681,
+    "image": "https://cdn-img.thepoizon.ru/node-common/66761ca0-ca01-1761-ea4e-079ba4b97eb8-135-143.png?x-oss-process=image/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "ГЛАВНАЯ",
+    "price_rub": 12681,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Категория",
+    "price_rub": 12681,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "СОРТИРОВАТЬ ПО:",
+    "price_rub": 12681,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240830/4f8a76c9e69d46d5a56e3e5f0941ab36.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "COACH Nolita Покрытый холст Одно плечо Сумка Маленькая Женская Песочный и Мел Белый",
+    "price_rub": 12681,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240830/4f8a76c9e69d46d5a56e3e5f0941ab36.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "12 681 ₽",
+    "price_rub": 12681,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "PINKO Сумка из коровьей кожи большая женская умбра",
+    "price_rub": 15363,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20241028/244ae8fd8b3b450a9a5781d31939dc82.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "15 363 ₽",
+    "price_rub": 15363,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Barbie Барби Принцесса Универсальный Стиль Шанель Свидание Шопинг Премиум Милый И Симпатичный Искусственная Кожа Сумка Через Плечо Обычный Размер Женский Черный Розовый",
+    "price_rub": 4585,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251120/5c9213a57ef14bc5934c73d3c51f581b.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "4 585 ₽",
+    "price_rub": 4585,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "CULTIVATOR ПУ (полиуретан) Сумка Стандартная Женская Многоцветная",
+    "price_rub": 3350,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250917/8bb5bb258073453e9fdb1612ce0c1b56.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 350 ₽",
+    "price_rub": 3350,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Carit&Koty Премиум-графитовый черный Цветочное великолепие Маленькая квадратная сумка 100% полиуретан PU (полиуретан) Сумки Обычный размер Женский Серый Розовый",
+    "price_rub": 3982,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250918/70c66e3ac046404482bf814ae31b19b4.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 982 ₽",
+    "price_rub": 3982,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "PINKO Овчина Сумка через плечо Женская Черная",
+    "price_rub": 16192,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230717/82fd0b84ffb1486c9e919d8e06c4131c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "16 192 ₽",
+    "price_rub": 16192,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "CAEISL&KCIEL Новый китайский стиль Премиум-графитовый черный Универсальный 100% полиуретан Сумки Женский Вышивка белый/белый с коричневым",
+    "price_rub": 3923,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250411/0cf68ee378a1444a912b291b04f5f4fb.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 923 ₽",
+    "price_rub": 3923,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "LONGCHAMP Le Pliage 17 Сумка-пельмень С Застежкой На Кнопку И Молнию С Короткими Ручками Из Холста С Полиамидным Покрытием Классическая Женская Бежевая",
+    "price_rub": 11045,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230424/b9c4d331efa4409599c56eec46b1956a.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "11 045 ₽",
+    "price_rub": 11045,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "PINKO Кожа Сумка через плечо Женская Черная",
+    "price_rub": 14157,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250722/88b8c7af75db4802891072ae7ee6c4d8.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "14 157 ₽",
+    "price_rub": 14157,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "UNIQLO Нейлоновая сумка через плечо унисекс бежевого цвета",
+    "price_rub": 4704,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251025/c4079fea464b4bd6ac29539b24675dcf.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "4 704 ₽",
+    "price_rub": 4704,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "MICHAEL KORS Jet Set Travel Кожа Тоут Сумка Сумка для покупок Сумка на плечо Сумка мини-версия Женская Ванильный белый",
+    "price_rub": 11845,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250804/c4391710ac1847759158ad9152a2507c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "11 845 ₽",
+    "price_rub": 11845,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Carit&Koty Премиум-графитовый черный маленькая квадратная сумка с цепочкой 100% полиуретан/искусственная кожа переносной через плечо женский серый/розовый",
+    "price_rub": 4009,
+    "image": "https://cdn-web.poizon.com/web-dewu/noah/og/daaf7ecb-c84f-415b-8890-a63850450fc0.png?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "4 009 ₽",
+    "price_rub": 4009,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "MARC JACOBS Сумка Tote из цельной кожи Сумка для покупок Сумка через плечо Сумка Extra Mini Женская Черная",
+    "price_rub": 21105,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250725/e7a149dd67e7410a9c8c3cccbab171ed.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "21 105 ₽",
+    "price_rub": 21105,
+    "image": "",
+    "category": "Сумки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "puma speedcat",
+    "price_rub": 2504,
+    "image": "https://cdn-img.thepoizon.ru/node-common/66761ca0-ca01-1761-ea4e-079ba4b97eb8-135-143.png?x-oss-process=image/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "ГЛАВНАЯ",
+    "price_rub": 2504,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "Категория",
+    "price_rub": 2504,
+    "image": "https://cdn-img.thepoizon.ru/node-common/3222a785-6fca-9295-20b2-0c520c7bfacf.svg",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "СОРТИРОВАТЬ ПО:",
+    "price_rub": 2504,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250422/1928a482396f46ecbb5e12b003b40fc2.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART THE MONSTERS LABUBU 3.0 Big Into Energy Виниловая Плюшевая Подвеска, Слепая Коробка, Одиночная Коробка/комплект Из 6 Шт.",
+    "price_rub": 2504,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250422/1928a482396f46ecbb5e12b003b40fc2.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 504 ₽",
+    "price_rub": 2504,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART THE MONSTERS LABUBU Have A Seat 2.0, Виниловая Плюшевая Фигурка, Слепая Коробка, Одиночная Коробка/комплект Из 6 Шт.",
+    "price_rub": 2650,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250628/67f2163d9d02413e9f61584f22c52b56.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 650 ₽",
+    "price_rub": 2650,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART THE MONSTERS LABUBU Exciting Macaron 1st Generation Виниловое Лицо, Слепая Коробка, Одиночная Коробка/комплект Из 6 Шт.",
+    "price_rub": 2813,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250704/03e96bcd2a5a48ae8aab681f0020f0c6.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 813 ₽",
+    "price_rub": 2813,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART x Мой маленький пони My Little Pony Collection Скулпанда Мягкая игрушка Слепые коробки",
+    "price_rub": 3058,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260202/e611536e014d46ad850b13808542e734.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 058 ₽",
+    "price_rub": 3058,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART Skullpanda Освежающий вариант Ткачество Садовая коллекция Мягкая игрушка Подвеска Слепые коробки",
+    "price_rub": 3314,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250620/13b5690d493b4fa589a470e2d2b81264.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 314 ₽",
+    "price_rub": 3314,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART Labubu Heartfelt Password Collection THE MONSTERS Винил (Vinyl) Плюшевый Украшение Слепая коробка A MN Z",
+    "price_rub": 2492,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250908/268383a92afa4087b4e3490c453f98df.png?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 492 ₽",
+    "price_rub": 2492,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART Skullpanda Door of Opportunity Collection Трендовые Слепые Коробки 1 Слепой Бокс Полная Упаковка 12 Пачек",
+    "price_rub": 2836,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250620/e1c3eea334e242df9445ebadd71ce15a.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 836 ₽",
+    "price_rub": 2836,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART Skullpanda Зимний День Механизм Коллекция Слепые Коробки 1 Слепая Коробка Цельная Коробка 6 Штук",
+    "price_rub": 2715,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250621/c0dcf15d33354526b3d2f873b57e05a0.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 715 ₽",
+    "price_rub": 2715,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART Skullpanda Insomnia Theater Collection Мягкая игрушка Украшение Слепые коробки 1 слепой бокс Целая коробка 9 шт",
+    "price_rub": 3458,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250905/0662ea63435143328212beabe9dea65f.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 458 ₽",
+    "price_rub": 3458,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART x XG Кукла Скелепанда Stern Faced Серебряная Волчья Мягкая Игрушка Украшение Прозрачный Слепой Бокс с Карточкой",
+    "price_rub": 12399,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260326/dc87eb8a42c24081aa39665a82d9a0c8.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "12 399 ₽",
+    "price_rub": 12399,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART Skullpanda Sound Collection Креативные Слепые Коробки 1 Слепой Бокс Полная Упаковка 12 Штук",
+    "price_rub": 2417,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250703/15392669321040cc89278541ce335499.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "2 417 ₽",
+    "price_rub": 2417,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART Hirono Highway Log HIRONO Слепые коробки 1 слепой бокс Целая коробка 6 шт",
+    "price_rub": 3191,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251212/aae617d69f8441c4b54cc6e4e93c4e94.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 191 ₽",
+    "price_rub": 3191,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "POP MART THE MONSTERS X Coca-Cola LABUBU, Виниловая Фигурка, Слепая Коробка, Одиночная Коробка/комплект Из 6 Шт.",
+    "price_rub": 3405,
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250621/b62ce1bd94fc452aa7186aed913ab772.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "category": "Игрушки",
+    "brand": "Poizon"
+  },
+  {
+    "name": "3 405 ₽",
+    "price_rub": 3405,
+    "image": "",
+    "category": "Игрушки",
+    "brand": "Poizon"
   }
 ]
