@@ -3,7 +3,7 @@ name: Run Telegram Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/240 * * * *'
+    - cron: '0 */3 * * *'  # каждые 3 часа
 
 jobs:
   bot:
@@ -20,7 +20,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install aiogram aiohttp
+          pip install aiogram aiohttp requests
       
       - name: Run bot
         env:
