@@ -57,16 +57,16 @@
             align-items: center;
         }
         .theme-toggle {
-            background: rgba(255,255,255,0.08);
+            background: rgba(255, 255, 255, 0.08);
             backdrop-filter: blur(12px);
-            border: 1px solid rgba(39,233,255,0.2);
+            border: 1px solid rgba(39, 233, 255, 0.2);
             border-radius: 30px;
             padding: 4px 12px;
             cursor: pointer;
             display: flex;
             align-items: center;
             gap: 6px;
-            color: rgba(255,255,255,0.7);
+            color: rgba(255, 255, 255, 0.7);
             font-size: 13px;
             transition: 0.25s ease;
         }
@@ -80,16 +80,16 @@
             display: block;
         }
         body.light .theme-toggle {
-            background: rgba(0,0,0,0.05);
-            border-color: rgba(0,0,0,0.1);
-            color: rgba(0,0,0,0.7);
+            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.1);
+            color: rgba(0, 0, 0, 0.7);
         }
         body.light .theme-toggle:hover {
             border-color: #00b8d4;
         }
         .admin-btn {
             display: none;
-            background: rgba(39,233,255,0.15);
+            background: rgba(39, 233, 255, 0.15);
             border: 1px solid #27e9ff;
             border-radius: 30px;
             padding: 4px 12px;
@@ -103,7 +103,7 @@
             border-color: #fff;
         }
         body.light .admin-btn {
-            background: rgba(0,184,212,0.1);
+            background: rgba(0, 184, 212, 0.1);
             color: #00b8d4;
         }
         body.light .admin-btn:hover {
@@ -112,7 +112,6 @@
         .admin-btn.visible {
             display: block;
         }
-        /* ===== ПОИСК ===== */
         .search-wrap {
             display: flex;
             gap: 8px;
@@ -123,8 +122,8 @@
             flex: 1;
             padding: 12px 18px;
             border-radius: 30px;
-            border: 1px solid rgba(255,255,255,0.1);
-            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(8px);
             color: #fff;
             font-size: 16px;
@@ -136,24 +135,24 @@
             transform: scale(1.02);
         }
         body.light .search-wrap input {
-            background: rgba(0,0,0,0.05);
-            border-color: rgba(0,0,0,0.1);
+            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.1);
             color: #1a1a1a;
         }
         body.light .search-wrap input:focus {
             border-color: #00b8d4;
         }
         .search-btn {
-            background: rgba(255,255,255,0.08);
+            background: rgba(255, 255, 255, 0.08);
             backdrop-filter: blur(12px);
-            border: 1px solid rgba(39,233,255,0.2);
+            border: 1px solid rgba(39, 233, 255, 0.2);
             border-radius: 30px;
             padding: 4px 14px;
             cursor: pointer;
             display: flex;
             align-items: center;
             gap: 6px;
-            color: rgba(255,255,255,0.7);
+            color: rgba(255, 255, 255, 0.7);
             font-size: 13px;
             transition: 0.25s ease;
         }
@@ -167,23 +166,22 @@
             display: block;
         }
         body.light .search-btn {
-            background: rgba(0,0,0,0.05);
-            border-color: rgba(0,0,0,0.1);
-            color: rgba(0,0,0,0.7);
+            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.1);
+            color: rgba(0, 0, 0, 0.7);
         }
         body.light .search-btn:hover {
             border-color: #00b8d4;
         }
-        /* Подсказки поиска */
         .suggestions {
             position: absolute;
             top: 100%;
             left: 0;
             right: 0;
-            background: rgba(20,20,30,0.95);
+            background: rgba(20, 20, 30, 0.95);
             backdrop-filter: blur(20px);
             border-radius: 16px;
-            border: 1px solid rgba(39,233,255,0.15);
+            border: 1px solid rgba(39, 233, 255, 0.15);
             margin-top: 4px;
             max-height: 200px;
             overflow-y: auto;
@@ -192,29 +190,27 @@
             padding: 6px 0;
         }
         body.light .suggestions {
-            background: rgba(240,240,245,0.95);
-            border-color: rgba(0,184,212,0.15);
+            background: rgba(240, 240, 245, 0.95);
+            border-color: rgba(0, 184, 212, 0.15);
         }
         .suggestions div {
             padding: 10px 16px;
-            color: rgba(255,255,255,0.8);
+            color: rgba(255, 255, 255, 0.8);
             cursor: pointer;
             font-size: 14px;
             transition: 0.15s ease;
         }
         .suggestions div:hover {
-            background: rgba(39,233,255,0.08);
+            background: rgba(39, 233, 255, 0.08);
             color: #fff;
         }
         body.light .suggestions div {
-            color: rgba(0,0,0,0.8);
+            color: rgba(0, 0, 0, 0.8);
         }
         body.light .suggestions div:hover {
-            background: rgba(0,184,212,0.08);
+            background: rgba(0, 184, 212, 0.08);
             color: #1a1a1a;
         }
-
-        /* ===== КАТЕГОРИИ ===== */
         .cats {
             display: flex;
             gap: 8px;
@@ -222,17 +218,17 @@
             padding: 4px 4px 12px 4px;
             margin-bottom: 16px;
             scrollbar-width: thin;
-            scrollbar-color: #27e9ff rgba(255,255,255,0.05);
+            scrollbar-color: #27e9ff rgba(255, 255, 255, 0.05);
             -webkit-overflow-scrolling: touch;
             border-radius: 30px;
-            background: rgba(255,255,255,0.02);
+            background: rgba(255, 255, 255, 0.02);
             backdrop-filter: blur(4px);
         }
         .cats::-webkit-scrollbar {
             height: 3px;
         }
         .cats::-webkit-scrollbar-track {
-            background: rgba(255,255,255,0.05);
+            background: rgba(255, 255, 255, 0.05);
             border-radius: 10px;
         }
         .cats::-webkit-scrollbar-thumb {
@@ -240,19 +236,19 @@
             border-radius: 10px;
         }
         body.light .cats::-webkit-scrollbar-track {
-            background: rgba(0,0,0,0.05);
+            background: rgba(0, 0, 0, 0.05);
         }
         body.light .cats {
-            background: rgba(0,0,0,0.02);
+            background: rgba(0, 0, 0, 0.02);
         }
         .cat {
             flex-shrink: 0;
             padding: 8px 18px;
             border-radius: 30px;
-            background: rgba(255,255,255,0.05);
+            background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(12px);
-            border: 1px solid rgba(255,255,255,0.06);
-            color: rgba(255,255,255,0.5);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            color: rgba(255, 255, 255, 0.5);
             font-size: 14px;
             font-weight: 500;
             cursor: pointer;
@@ -264,20 +260,20 @@
             transform: scale(1.06);
             border-color: #27e9ff;
             color: #fff;
-            background: rgba(39,233,255,0.12);
+            background: rgba(39, 233, 255, 0.12);
         }
         body.light .cat:hover {
             border-color: #00b8d4;
             color: #1a1a1a;
-            background: rgba(0,184,212,0.08);
+            background: rgba(0, 184, 212, 0.08);
         }
         .cat.active {
-            background: rgba(39,233,255,0.15);
+            background: rgba(39, 233, 255, 0.15);
             border-color: #27e9ff;
             color: #fff;
         }
         body.light .cat.active {
-            background: rgba(0,184,212,0.12);
+            background: rgba(0, 184, 212, 0.12);
             border-color: #00b8d4;
             color: #1a1a1a;
         }
@@ -294,28 +290,32 @@
             animation: bubbleSlide 0.3s ease;
         }
         @keyframes bubbleSlide {
-            from { width: 0; opacity: 0; }
-            to { width: 20px; opacity: 1; }
+            from {
+                width: 0;
+                opacity: 0;
+            }
+            to {
+                width: 20px;
+                opacity: 1;
+            }
         }
-
-        /* ===== ФИЛЬТРЫ ===== */
         .filters-panel {
             display: none;
             flex-direction: column;
             gap: 10px;
             padding: 16px;
-            background: rgba(255,255,255,0.04);
+            background: rgba(255, 255, 255, 0.04);
             backdrop-filter: blur(12px);
             border-radius: 16px;
             margin-bottom: 16px;
-            border: 1px solid rgba(255,255,255,0.06);
+            border: 1px solid rgba(255, 255, 255, 0.06);
         }
         .filters-panel.open {
             display: flex;
         }
         body.light .filters-panel {
-            background: rgba(0,0,0,0.04);
-            border-color: rgba(0,0,0,0.06);
+            background: rgba(0, 0, 0, 0.04);
+            border-color: rgba(0, 0, 0, 0.06);
         }
         .filter-row {
             display: flex;
@@ -325,19 +325,19 @@
         }
         .filter-row label {
             font-size: 13px;
-            color: rgba(255,255,255,0.5);
+            color: rgba(255, 255, 255, 0.5);
             min-width: 50px;
         }
         body.light .filter-row label {
-            color: rgba(0,0,0,0.5);
+            color: rgba(0, 0, 0, 0.5);
         }
         .filter-row select,
         .filter-row input {
             flex: 1;
             padding: 6px 10px;
             border-radius: 20px;
-            border: 1px solid rgba(255,255,255,0.08);
-            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.05);
             color: #fff;
             font-size: 13px;
             outline: none;
@@ -349,8 +349,8 @@
         }
         body.light .filter-row select,
         body.light .filter-row input {
-            background: rgba(0,0,0,0.05);
-            border-color: rgba(0,0,0,0.08);
+            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.08);
             color: #1a1a1a;
         }
         body.light .filter-row select:hover,
@@ -358,8 +358,8 @@
             border-color: #00b8d4;
         }
         .filter-row .filter-reset {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 20px;
             padding: 6px 14px;
             color: #fff;
@@ -373,7 +373,7 @@
         }
         body.light .filter-row .filter-reset {
             color: #1a1a1a;
-            background: rgba(0,0,0,0.05);
+            background: rgba(0, 0, 0, 0.05);
         }
         body.light .filter-row .filter-reset:hover {
             border-color: #ff6b6b;
@@ -406,7 +406,7 @@
         }
         .filter-check-group label {
             font-size: 13px;
-            color: rgba(255,255,255,0.6);
+            color: rgba(255, 255, 255, 0.6);
             display: flex;
             align-items: center;
             gap: 4px;
@@ -420,7 +420,7 @@
             color: #1a1a1a;
         }
         body.light .filter-check-group label {
-            color: rgba(0,0,0,0.6);
+            color: rgba(0, 0, 0, 0.6);
         }
         .filter-check-group input[type="checkbox"] {
             accent-color: #27e9ff;
@@ -428,32 +428,30 @@
             height: 16px;
             cursor: pointer;
         }
-
-        /* ===== БАННЕР ===== */
         .banner {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: rgba(255,255,255,0.04);
+            background: rgba(255, 255, 255, 0.04);
             backdrop-filter: blur(12px);
             border-radius: 20px;
             padding: 16px 18px;
             margin-bottom: 24px;
-            border: 1px solid rgba(255,255,255,0.06);
+            border: 1px solid rgba(255, 255, 255, 0.06);
         }
         body.light .banner {
-            background: rgba(0,0,0,0.04);
-            border-color: rgba(0,0,0,0.06);
+            background: rgba(0, 0, 0, 0.04);
+            border-color: rgba(0, 0, 0, 0.06);
         }
         .banner h2 {
             font-size: 20px;
         }
         .banner p {
-            color: rgba(255,255,255,0.5);
+            color: rgba(255, 255, 255, 0.5);
             font-size: 14px;
         }
         body.light .banner p {
-            color: rgba(0,0,0,0.5);
+            color: rgba(0, 0, 0, 0.5);
         }
         .banner-btn {
             background: linear-gradient(135deg, #27e9ff, #00b8d4);
@@ -469,19 +467,17 @@
         .banner-btn:hover {
             transform: scale(1.05);
         }
-
-        /* ===== ТОВАРЫ ===== */
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 12px;
         }
         .card {
-            background: rgba(255,255,255,0.04);
+            background: rgba(255, 255, 255, 0.04);
             backdrop-filter: blur(8px);
             border-radius: 16px;
             padding: 12px;
-            border: 1px solid rgba(255,255,255,0.06);
+            border: 1px solid rgba(255, 255, 255, 0.06);
             transition: 0.25s ease;
             cursor: pointer;
             position: relative;
@@ -489,22 +485,22 @@
         .card:hover {
             transform: translateY(-4px);
             border-color: #27e9ff;
-            background: rgba(39,233,255,0.05);
+            background: rgba(39, 233, 255, 0.05);
         }
         body.light .card:hover {
             border-color: #00b8d4;
-            background: rgba(0,184,212,0.05);
+            background: rgba(0, 184, 212, 0.05);
         }
         .card .img {
             width: 100%;
             aspect-ratio: 1;
             border-radius: 12px;
             overflow: hidden;
-            background: rgba(255,255,255,0.04);
+            background: rgba(255, 255, 255, 0.04);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: rgba(255,255,255,0.1);
+            color: rgba(255, 255, 255, 0.1);
             font-size: 30px;
             margin-bottom: 8px;
         }
@@ -515,11 +511,11 @@
         }
         .card .brand {
             font-size: 11px;
-            color: rgba(255,255,255,0.3);
+            color: rgba(255, 255, 255, 0.3);
             text-transform: uppercase;
         }
         body.light .card .brand {
-            color: rgba(0,0,0,0.3);
+            color: rgba(0, 0, 0, 0.3);
         }
         .card .name {
             font-size: 15px;
@@ -548,27 +544,52 @@
             transform: scale(1.04);
         }
         .card .add-btn.in-cart {
-            background: rgba(255,255,255,0.08);
+            background: rgba(255, 255, 255, 0.08);
             color: #fff;
         }
         body.light .card .add-btn.in-cart {
-            background: rgba(0,0,0,0.08);
+            background: rgba(0, 0, 0, 0.08);
             color: #1a1a1a;
         }
         .card .badge {
             position: absolute;
             top: 8px;
             left: 8px;
-            background: rgba(39,233,255,0.15);
+            background: rgba(39, 233, 255, 0.15);
             backdrop-filter: blur(4px);
             padding: 2px 8px;
             border-radius: 12px;
             font-size: 10px;
             color: #27e9ff;
-            border: 1px solid rgba(39,233,255,0.2);
+            border: 1px solid rgba(39, 233, 255, 0.2);
         }
-
-        /* ===== ДЕТАЛЬНАЯ КАРТОЧКА ===== */
+        /* Подсказка при наведении на карточку */
+        .card .hover-hint {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(39, 233, 255, 0.9);
+            backdrop-filter: blur(8px);
+            color: #050505;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: center;
+            padding: 6px 0;
+            transform: translateY(100%);
+            opacity: 0;
+            transition: 0.25s ease;
+            border-radius: 0 0 16px 16px;
+            pointer-events: none;
+        }
+        .card:hover .hover-hint {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        body.light .card .hover-hint {
+            background: rgba(0, 184, 212, 0.9);
+            color: #fff;
+        }
         .product-detail {
             display: none;
             position: fixed;
@@ -576,7 +597,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.8);
+            background: rgba(0, 0, 0, 0.8);
             backdrop-filter: blur(20px);
             z-index: 300;
             overflow-y: auto;
@@ -588,15 +609,15 @@
         .detail-box {
             max-width: 420px;
             margin: 0 auto;
-            background: rgba(20,20,30,0.9);
+            background: rgba(20, 20, 30, 0.9);
             backdrop-filter: blur(20px);
             border-radius: 28px;
             padding: 24px;
-            border: 1px solid rgba(255,255,255,0.06);
+            border: 1px solid rgba(255, 255, 255, 0.06);
         }
         body.light .detail-box {
-            background: rgba(240,240,245,0.9);
-            border-color: rgba(0,0,0,0.06);
+            background: rgba(240, 240, 245, 0.9);
+            border-color: rgba(0, 0, 0, 0.06);
         }
         .detail-box .close-btn {
             background: none;
@@ -615,7 +636,7 @@
             border-radius: 16px;
             overflow: hidden;
             margin: 10px 0;
-            background: rgba(255,255,255,0.04);
+            background: rgba(255, 255, 255, 0.04);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -632,11 +653,11 @@
         }
         .detail-box .detail-brand {
             font-size: 14px;
-            color: rgba(255,255,255,0.4);
+            color: rgba(255, 255, 255, 0.4);
             text-transform: uppercase;
         }
         body.light .detail-box .detail-brand {
-            color: rgba(0,0,0,0.4);
+            color: rgba(0, 0, 0, 0.4);
         }
         .detail-box .detail-price {
             font-size: 24px;
@@ -646,19 +667,19 @@
         }
         .detail-box .detail-desc {
             font-size: 14px;
-            color: rgba(255,255,255,0.6);
+            color: rgba(255, 255, 255, 0.6);
             margin-bottom: 16px;
             line-height: 1.5;
         }
         body.light .detail-box .detail-desc {
-            color: rgba(0,0,0,0.6);
+            color: rgba(0, 0, 0, 0.6);
         }
         .detail-box select {
             width: 100%;
             padding: 10px;
             border-radius: 16px;
-            border: 1px solid rgba(255,255,255,0.08);
-            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.05);
             color: #fff;
             font-size: 15px;
             margin-bottom: 10px;
@@ -669,8 +690,8 @@
             border-color: #27e9ff;
         }
         body.light .detail-box select {
-            background: rgba(0,0,0,0.05);
-            border-color: rgba(0,0,0,0.08);
+            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.08);
             color: #1a1a1a;
         }
         body.light .detail-box select:hover {
@@ -692,11 +713,11 @@
             transform: scale(1.04);
         }
         .detail-box .detail-add-btn.in-cart {
-            background: rgba(255,255,255,0.08);
+            background: rgba(255, 255, 255, 0.08);
             color: #fff;
         }
         body.light .detail-box .detail-add-btn.in-cart {
-            background: rgba(0,0,0,0.08);
+            background: rgba(0, 0, 0, 0.08);
             color: #1a1a1a;
         }
         .detail-thumbs {
@@ -722,8 +743,6 @@
         .detail-thumbs img.active {
             border-color: #27e9ff;
         }
-
-        /* ===== АДМИН ПАНЕЛЬ ===== */
         .admin-panel {
             display: none;
             position: fixed;
@@ -731,7 +750,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.8);
+            background: rgba(0, 0, 0, 0.8);
             backdrop-filter: blur(20px);
             z-index: 500;
             padding: 20px;
@@ -743,14 +762,14 @@
         .admin-box {
             max-width: 420px;
             margin: 0 auto;
-            background: rgba(20,20,30,0.95);
+            background: rgba(20, 20, 30, 0.95);
             border-radius: 28px;
             padding: 24px;
-            border: 1px solid rgba(39,233,255,0.2);
+            border: 1px solid rgba(39, 233, 255, 0.2);
         }
         body.light .admin-box {
-            background: rgba(240,240,245,0.95);
-            border-color: rgba(0,184,212,0.2);
+            background: rgba(240, 240, 245, 0.95);
+            border-color: rgba(0, 184, 212, 0.2);
         }
         .admin-box h2 {
             color: #27e9ff;
@@ -759,19 +778,19 @@
         .admin-box label {
             display: block;
             font-size: 13px;
-            color: rgba(255,255,255,0.5);
+            color: rgba(255, 255, 255, 0.5);
             margin: 10px 0 4px;
         }
         body.light .admin-box label {
-            color: rgba(0,0,0,0.5);
+            color: rgba(0, 0, 0, 0.5);
         }
         .admin-box input,
         .admin-box select {
             width: 100%;
             padding: 8px 12px;
             border-radius: 16px;
-            border: 1px solid rgba(255,255,255,0.08);
-            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.05);
             color: #fff;
             font-size: 14px;
             margin-bottom: 8px;
@@ -784,8 +803,8 @@
         }
         body.light .admin-box input,
         body.light .admin-box select {
-            background: rgba(0,0,0,0.05);
-            border-color: rgba(0,0,0,0.08);
+            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.08);
             color: #1a1a1a;
         }
         body.light .admin-box input:hover,
@@ -814,11 +833,11 @@
             color: #050505;
         }
         .admin-box .btn-row .secondary {
-            background: rgba(255,255,255,0.08);
+            background: rgba(255, 255, 255, 0.08);
             color: #fff;
         }
         body.light .admin-box .btn-row .secondary {
-            background: rgba(0,0,0,0.08);
+            background: rgba(0, 0, 0, 0.08);
             color: #1a1a1a;
         }
         .admin-product-list {
@@ -830,13 +849,13 @@
             display: flex;
             justify-content: space-between;
             padding: 6px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.04);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
             font-size: 13px;
-            color: rgba(255,255,255,0.8);
+            color: rgba(255, 255, 255, 0.8);
         }
         body.light .admin-product-list div {
-            color: rgba(0,0,0,0.8);
-            border-bottom-color: rgba(0,0,0,0.04);
+            color: rgba(0, 0, 0, 0.8);
+            border-bottom-color: rgba(0, 0, 0, 0.04);
         }
         .admin-product-list .del {
             color: #ff6b6b;
@@ -847,8 +866,6 @@
             transform: scale(1.2);
             color: #ff4444;
         }
-
-        /* ===== ОФОРМЛЕНИЕ ЗАКАЗА ===== */
         .checkout-modal {
             display: none;
             position: fixed;
@@ -856,7 +873,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.85);
+            background: rgba(0, 0, 0, 0.85);
             backdrop-filter: blur(20px);
             z-index: 600;
             padding: 20px;
@@ -871,18 +888,18 @@
             max-width: 420px;
             width: 100%;
             margin: 0 auto;
-            background: rgba(20,20,30,0.95);
+            background: rgba(20, 20, 30, 0.95);
             backdrop-filter: blur(24px);
             border-radius: 28px;
             padding: 24px;
-            border: 1px solid rgba(39,233,255,0.2);
+            border: 1px solid rgba(39, 233, 255, 0.2);
             max-height: 95vh;
             overflow-y: auto;
             position: relative;
         }
         body.light .checkout-box {
-            background: rgba(240,240,245,0.95);
-            border-color: rgba(0,184,212,0.2);
+            background: rgba(240, 240, 245, 0.95);
+            border-color: rgba(0, 184, 212, 0.2);
         }
         .checkout-box h2 {
             color: #27e9ff;
@@ -895,19 +912,19 @@
         .checkout-box label {
             display: block;
             font-size: 13px;
-            color: rgba(255,255,255,0.5);
+            color: rgba(255, 255, 255, 0.5);
             margin: 12px 0 4px;
         }
         body.light .checkout-box label {
-            color: rgba(0,0,0,0.5);
+            color: rgba(0, 0, 0, 0.5);
         }
         .checkout-box input,
         .checkout-box select {
             width: 100%;
             padding: 10px 14px;
             border-radius: 16px;
-            border: 1px solid rgba(255,255,255,0.08);
-            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.05);
             color: #fff;
             font-size: 15px;
             outline: none;
@@ -919,53 +936,13 @@
         }
         body.light .checkout-box input,
         body.light .checkout-box select {
-            background: rgba(0,0,0,0.05);
-            border-color: rgba(0,0,0,0.08);
+            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.08);
             color: #1a1a1a;
         }
         body.light .checkout-box input:focus,
         body.light .checkout-box select:focus {
             border-color: #00b8d4;
-        }
-
-        /* Город с подсказками */
-        .city-suggestions {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            background: rgba(20,20,30,0.95);
-            backdrop-filter: blur(20px);
-            border-radius: 16px;
-            border: 1px solid rgba(39,233,255,0.15);
-            margin-top: 4px;
-            max-height: 180px;
-            overflow-y: auto;
-            display: none;
-            z-index: 60;
-            padding: 6px 0;
-        }
-        body.light .city-suggestions {
-            background: rgba(240,240,245,0.95);
-            border-color: rgba(0,184,212,0.15);
-        }
-        .city-suggestions div {
-            padding: 10px 16px;
-            color: rgba(255,255,255,0.8);
-            cursor: pointer;
-            font-size: 14px;
-            transition: 0.15s ease;
-        }
-        .city-suggestions div:hover {
-            background: rgba(39,233,255,0.08);
-            color: #fff;
-        }
-        body.light .city-suggestions div {
-            color: rgba(0,0,0,0.8);
-        }
-        body.light .city-suggestions div:hover {
-            background: rgba(0,184,212,0.08);
-            color: #1a1a1a;
         }
         .city-wrapper {
             position: relative;
@@ -974,8 +951,8 @@
             width: 100%;
             padding: 10px 14px;
             border-radius: 16px;
-            border: 1px solid rgba(255,255,255,0.08);
-            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.05);
             color: #fff;
             font-size: 15px;
             outline: none;
@@ -985,19 +962,55 @@
             border-color: #27e9ff;
         }
         body.light .city-wrapper input {
-            background: rgba(0,0,0,0.05);
-            border-color: rgba(0,0,0,0.08);
+            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.08);
             color: #1a1a1a;
         }
         body.light .city-wrapper input:focus {
             border-color: #00b8d4;
         }
-
-        /* ===== КНОПКА ПОДДЕРЖКИ ===== */
+        .city-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: rgba(20, 20, 30, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 16px;
+            border: 1px solid rgba(39, 233, 255, 0.15);
+            margin-top: 4px;
+            max-height: 180px;
+            overflow-y: auto;
+            display: none;
+            z-index: 60;
+            padding: 6px 0;
+        }
+        body.light .city-suggestions {
+            background: rgba(240, 240, 245, 0.95);
+            border-color: rgba(0, 184, 212, 0.15);
+        }
+        .city-suggestions div {
+            padding: 10px 16px;
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.15s ease;
+        }
+        .city-suggestions div:hover {
+            background: rgba(39, 233, 255, 0.08);
+            color: #fff;
+        }
+        body.light .city-suggestions div {
+            color: rgba(0, 0, 0, 0.8);
+        }
+        body.light .city-suggestions div:hover {
+            background: rgba(0, 184, 212, 0.08);
+            color: #1a1a1a;
+        }
         .support-btn {
             width: 100%;
             padding: 12px;
-            margin: 8px 0 16px 0;
+            margin: 12px 0 16px 0;
             border: none;
             border-radius: 30px;
             background: linear-gradient(135deg, #27e9ff, #00b8d4);
@@ -1011,12 +1024,11 @@
         }
         .support-btn:hover {
             transform: scale(1.04);
-            box-shadow: 0 4px 24px rgba(39,233,255,0.3);
+            box-shadow: 0 4px 24px rgba(39, 233, 255, 0.3);
         }
         body.light .support-btn {
             color: #050505;
         }
-
         .checkout-box .btn-row {
             display: flex;
             gap: 10px;
@@ -1040,11 +1052,11 @@
             color: #050505;
         }
         .checkout-box .btn-row .secondary {
-            background: rgba(255,255,255,0.08);
+            background: rgba(255, 255, 255, 0.08);
             color: #fff;
         }
         body.light .checkout-box .btn-row .secondary {
-            background: rgba(0,0,0,0.08);
+            background: rgba(0, 0, 0, 0.08);
             color: #1a1a1a;
         }
         .checkout-box .total-row {
@@ -1053,12 +1065,12 @@
             font-size: 18px;
             font-weight: 700;
             padding: 12px 0;
-            border-top: 1px solid rgba(255,255,255,0.06);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
             margin-top: 12px;
             color: #27e9ff;
         }
         body.light .checkout-box .total-row {
-            border-top-color: rgba(0,0,0,0.06);
+            border-top-color: rgba(0, 0, 0, 0.06);
             color: #00b8d4;
         }
         .checkout-box .close-checkout {
@@ -1067,7 +1079,7 @@
             right: 20px;
             background: none;
             border: none;
-            color: rgba(255,255,255,0.5);
+            color: rgba(255, 255, 255, 0.5);
             font-size: 24px;
             cursor: pointer;
             transition: 0.25s ease;
@@ -1077,13 +1089,11 @@
             color: #ff6b6b;
         }
         body.light .checkout-box .close-checkout {
-            color: rgba(0,0,0,0.5);
+            color: rgba(0, 0, 0, 0.5);
         }
         body.light .checkout-box .close-checkout:hover {
             color: #ff6b6b;
         }
-
-        /* ===== НИЖНЯЯ НАВИГАЦИЯ ===== */
         .bottom-nav {
             position: fixed;
             bottom: 16px;
@@ -1091,21 +1101,21 @@
             transform: translateX(-50%);
             width: calc(100% - 32px);
             max-width: 400px;
-            background: rgba(20,20,30,0.7);
+            background: rgba(20, 20, 30, 0.7);
             backdrop-filter: blur(24px);
             border-radius: 40px;
-            border: 1px solid rgba(255,255,255,0.08);
+            border: 1px solid rgba(255, 255, 255, 0.08);
             padding: 8px 12px;
             display: flex;
             justify-content: space-around;
             align-items: center;
             z-index: 100;
-            box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
         }
         body.light .bottom-nav {
-            background: rgba(230,230,240,0.7);
-            border-color: rgba(0,0,0,0.06);
-            box-shadow: 0 8px 40px rgba(0,0,0,0.05);
+            background: rgba(230, 230, 240, 0.7);
+            border-color: rgba(0, 0, 0, 0.06);
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.05);
         }
         .nav-item {
             display: flex;
@@ -1121,7 +1131,7 @@
             min-width: 48px;
             background: transparent;
             border: none;
-            color: rgba(255,255,255,0.3);
+            color: rgba(255, 255, 255, 0.3);
             font-size: 10px;
         }
         .nav-item:hover {
@@ -1132,7 +1142,7 @@
             color: #1a1a1a;
         }
         body.light .nav-item {
-            color: rgba(0,0,0,0.3);
+            color: rgba(0, 0, 0, 0.3);
         }
         .nav-item img {
             width: 26px;
@@ -1169,15 +1179,13 @@
             font-size: 9px;
             font-weight: 500;
         }
-
-        /* ===== TOAST ===== */
         .toast {
             display: none;
             position: fixed;
             bottom: 90px;
             left: 50%;
             transform: translateX(-50%);
-            background: rgba(39,233,255,0.9);
+            background: rgba(39, 233, 255, 0.9);
             backdrop-filter: blur(12px);
             padding: 10px 24px;
             border-radius: 40px;
@@ -1191,64 +1199,74 @@
             animation: fadeUp 0.3s ease;
         }
         @keyframes fadeUp {
-            from { opacity: 0; transform: translateX(-50%) translateY(10px); }
-            to { opacity: 1; transform: translateX(-50%) translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateX(-50%) translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
         }
         body.light .toast {
-            background: rgba(0,184,212,0.9);
+            background: rgba(0, 184, 212, 0.9);
             color: #fff;
         }
-
-        /* ===== ВКЛАДКИ ===== */
         .tab-content {
             display: none;
         }
         .tab-content.active {
             display: block;
         }
-
-        /* ===== АДАПТИВ ===== */
         @media (max-width: 400px) {
-            .nav-item { padding: 4px 6px; min-width: 36px; }
-            .nav-item img { width: 22px; height: 22px; }
-            .theme-toggle, .search-btn { font-size: 11px; padding: 2px 10px; }
-            .theme-toggle img, .search-btn img { width: 18px; height: 18px; }
-            .filter-row { flex-direction: column; align-items: stretch; }
-            .filter-row label { min-width: auto; }
-            .checkout-box { padding: 16px; }
+            .nav-item {
+                padding: 4px 6px;
+                min-width: 36px;
+            }
+            .nav-item img {
+                width: 22px;
+                height: 22px;
+            }
+            .theme-toggle,
+            .search-btn {
+                font-size: 11px;
+                padding: 2px 10px;
+            }
+            .theme-toggle img,
+            .search-btn img {
+                width: 18px;
+                height: 18px;
+            }
+            .filter-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .filter-row label {
+                min-width: auto;
+            }
+            .checkout-box {
+                padding: 16px;
+            }
         }
     </style>
 </head>
 <body>
 
     <div class="app" id="app">
-
-        <!-- ===== ШАПКА ===== -->
         <div class="header">
-            <div class="logo-block">
-                <img src="logo.png" alt="Legit Drop" id="logoImg">
-                <span class="logo-text">Legit Drop</span>
-            </div>
+            <div class="logo-block"><img src="logo.png" alt="Legit Drop" id="logoImg"><span class="logo-text">Legit Drop</span></div>
             <div class="header-icons">
-                <button class="theme-toggle" id="themeToggle">
-                    <img src="tema.png" alt="Тема" id="themeIcon">
-                    <span>Тема</span>
-                </button>
+                <button class="theme-toggle" id="themeToggle"><img src="tema.png" alt="Тема" id="themeIcon"><span>Тема</span></button>
                 <button class="admin-btn" id="adminToggle">⚙️ Админ</button>
             </div>
         </div>
 
-        <!-- ===== ПОИСК ===== -->
         <div class="search-wrap" id="searchWrap">
             <input type="text" id="searchInput" placeholder="Поиск одежды..." autocomplete="off">
-            <button class="search-btn" id="searchBtn">
-                <img src="poisk.png" alt="Поиск" id="searchIcon">
-                <span>Найти</span>
-            </button>
+            <button class="search-btn" id="searchBtn"><img src="poisk.png" alt="Поиск" id="searchIcon"><span>Найти</span></button>
             <div class="suggestions" id="suggestions"></div>
         </div>
 
-        <!-- ===== КАТЕГОРИИ ===== -->
         <div class="cats" id="cats">
             <span class="cat active" data-filter="all">Все</span>
             <span class="cat" data-filter="Кроссовки">Кроссовки</span>
@@ -1259,193 +1277,78 @@
             <span class="cat" data-filter="Игрушки">Игрушки</span>
         </div>
 
-        <!-- ===== ФИЛЬТРЫ ===== -->
         <span class="filter-toggle" id="filterToggle">🔽 Фильтры</span>
         <div class="filters-panel" id="filtersPanel">
-            <div class="filter-row">
-                <label>Пол</label>
-                <div class="filter-check-group">
-                    <label><input type="checkbox" class="gender-check" value="Мужской"> Мужской</label>
-                    <label><input type="checkbox" class="gender-check" value="Женский"> Женский</label>
-                    <label><input type="checkbox" class="gender-check" value="Унисекс"> Унисекс</label>
-                </div>
-            </div>
-            <div class="filter-row">
-                <label>Размер</label>
-                <select id="filterSize">
-                    <option value="all">Все</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                </select>
-            </div>
-            <div class="filter-row">
-                <label>Цвет</label>
-                <select id="filterColor">
-                    <option value="all">Все</option>
-                    <option value="Черный">Черный</option>
-                    <option value="Белый">Белый</option>
-                    <option value="Серый">Серый</option>
-                    <option value="Красный">Красный</option>
-                    <option value="Синий">Синий</option>
-                    <option value="Зеленый">Зеленый</option>
-                    <option value="Коричневый">Коричневый</option>
-                    <option value="Многоцветный">Многоцветный</option>
-                </select>
-            </div>
-            <div class="filter-row">
-                <label>Цена</label>
-                <input type="number" id="filterPriceMin" placeholder="от" style="flex:1;">
-                <input type="number" id="filterPriceMax" placeholder="до" style="flex:1;">
-                <button class="filter-reset" id="filterReset">Сбросить</button>
-            </div>
+            <div class="filter-row"><label>Пол</label><div class="filter-check-group"><label><input type="checkbox" class="gender-check" value="Мужской"> Мужской</label><label><input type="checkbox" class="gender-check" value="Женский"> Женский</label><label><input type="checkbox" class="gender-check" value="Унисекс"> Унисекс</label></div></div>
+            <div class="filter-row"><label>Размер</label><select id="filterSize"><option value="all">Все</option><option value="S">S</option><option value="M">M</option><option value="L">L</option><option value="XL">XL</option></select></div>
+            <div class="filter-row"><label>Цвет</label><select id="filterColor"><option value="all">Все</option><option value="Черный">Черный</option><option value="Белый">Белый</option><option value="Серый">Серый</option><option value="Красный">Красный</option><option value="Синий">Синий</option><option value="Зеленый">Зеленый</option><option value="Коричневый">Коричневый</option><option value="Многоцветный">Многоцветный</option></select></div>
+            <div class="filter-row"><label>Цена</label><input type="number" id="filterPriceMin" placeholder="от" style="flex:1;"><input type="number" id="filterPriceMax" placeholder="до" style="flex:1;"><button class="filter-reset" id="filterReset">Сбросить</button></div>
         </div>
 
-        <!-- ===== БАННЕР ===== -->
-        <div class="banner">
-            <div>
-                <h2>Новый дроп</h2>
-                <p>Оригинал. Стиль. Ты.</p>
-            </div>
-            <div style="display:flex;align-items:center;gap:10px;">
-                <img src="logo.png" alt="logo" style="height:36px;width:auto;display:block;">
-                <button class="banner-btn" id="dropBtn">Смотреть</button>
-            </div>
-        </div>
+        <div class="banner"><div><h2>Новый дроп</h2><p>Оригинал. Стиль. Ты.</p></div><div style="display:flex;align-items:center;gap:10px;"><img src="logo.png" alt="logo" style="height:36px;width:auto;display:block;"><button class="banner-btn" id="dropBtn">Смотреть</button></div></div>
 
-        <!-- ===== ГЛАВНАЯ ===== -->
         <div id="tabHome" class="tab-content active">
-            <div class="section-title">
-                <span>Популярное</span>
-                <a id="seeAllPopular">Смотреть все</a>
-            </div>
+            <div class="section-title"><span>Популярное</span><a id="seeAllPopular">Смотреть все</a></div>
             <div class="grid" id="popularGrid"></div>
         </div>
 
-        <!-- ===== КАТАЛОГ ===== -->
         <div id="tabCatalog" class="tab-content">
             <div class="section-title"><span>Все товары</span></div>
             <div class="grid" id="catalogGrid"></div>
         </div>
 
-        <!-- ===== КОРЗИНА ===== -->
         <div id="tabCart" class="tab-content">
             <div class="section-title"><span>🛒 Корзина</span></div>
             <div id="cartItemsList"></div>
-            <button id="openCheckoutBtn" style="width:100%;padding:14px;margin-top:16px;background:linear-gradient(135deg,#27e9ff,#00b8d4);border:none;border-radius:30px;font-weight:700;font-size:16px;color:#050505;cursor:pointer;display:none;">
-                Оформить заказ
-            </button>
+            <button id="openCheckoutBtn" style="width:100%;padding:14px;margin-top:16px;background:linear-gradient(135deg,#27e9ff,#00b8d4);border:none;border-radius:30px;font-weight:700;font-size:16px;color:#050505;cursor:pointer;display:none;">Оформить заказ</button>
         </div>
 
-        <!-- ===== ЗАКАЗЫ ===== -->
         <div id="tabOrders" class="tab-content">
             <div class="section-title"><span>📦 Заказы</span></div>
             <div id="ordersList"></div>
         </div>
 
-        <!-- ===== ПРОФИЛЬ ===== -->
         <div id="tabProfile" class="tab-content">
             <div class="section-title"><span>👤 Профиль</span></div>
-            <div style="background:rgba(255,255,255,0.04);backdrop-filter:blur(8px);border-radius:16px;padding:16px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.04);">
-                <div style="color:rgba(255,255,255,0.4);font-size:14px;">Имя</div>
-                <div style="font-size:18px;font-weight:600;" id="profileName">Гость</div>
-            </div>
-            <div style="background:rgba(255,255,255,0.04);backdrop-filter:blur(8px);border-radius:16px;padding:16px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.04);">
-                <div style="color:rgba(255,255,255,0.4);font-size:14px;">Сумма покупок</div>
-                <div style="color:#27e9ff;font-size:22px;font-weight:700;" id="profileTotal">0 ₽</div>
-            </div>
-            <div style="background:rgba(255,255,255,0.04);backdrop-filter:blur(8px);border-radius:16px;padding:16px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.04);">
-                <div style="color:rgba(255,255,255,0.4);font-size:14px;">Заказов</div>
-                <div style="font-size:18px;" id="profileOrders">0</div>
-            </div>
+            <div style="background:rgba(255,255,255,0.04);backdrop-filter:blur(8px);border-radius:16px;padding:16px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.04);"><div style="color:rgba(255,255,255,0.4);font-size:14px;">Имя</div><div style="font-size:18px;font-weight:600;" id="profileName">Гость</div></div>
+            <div style="background:rgba(255,255,255,0.04);backdrop-filter:blur(8px);border-radius:16px;padding:16px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.04);"><div style="color:rgba(255,255,255,0.4);font-size:14px;">Сумма покупок</div><div style="color:#27e9ff;font-size:22px;font-weight:700;" id="profileTotal">0 ₽</div></div>
+            <div style="background:rgba(255,255,255,0.04);backdrop-filter:blur(8px);border-radius:16px;padding:16px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.04);"><div style="color:rgba(255,255,255,0.4);font-size:14px;">Заказов</div><div style="font-size:18px;" id="profileOrders">0</div></div>
             <button id="editProfileBtn" style="width:100%;padding:12px;background:linear-gradient(135deg,#27e9ff,#00b8d4);border:none;border-radius:30px;font-weight:700;color:#050505;cursor:pointer;">Редактировать</button>
         </div>
-
     </div>
 
-    <!-- ===== АДМИН ПАНЕЛЬ ===== -->
     <div class="admin-panel" id="adminPanel">
         <div class="admin-box">
             <h2>⚙️ Админ-панель</h2>
-            <label>Бренд</label>
-            <input type="text" id="adminBrand" placeholder="Nike">
-            <label>Название</label>
-            <input type="text" id="adminName" placeholder="Air Force 1">
-            <label>Цена (₽)</label>
-            <input type="number" id="adminPrice" placeholder="11990">
-            <label>Категория</label>
-            <select id="adminCategory">
-                <option value="Кроссовки">Кроссовки</option>
-                <option value="Обувь">Обувь</option>
-                <option value="Одежда">Одежда</option>
-                <option value="Аксессуары">Аксессуары</option>
-                <option value="Сумки">Сумки</option>
-                <option value="Игрушки">Игрушки</option>
-            </select>
-            <label>Пол</label>
-            <select id="adminGender">
-                <option value="Унисекс">Унисекс</option>
-                <option value="Мужской">Мужской</option>
-                <option value="Женский">Женский</option>
-            </select>
-            <label>Размер</label>
-            <input type="text" id="adminSize" placeholder="S, M, L, XL">
-            <label>Цвет</label>
-            <input type="text" id="adminColor" placeholder="Черный, Белый">
-            <label>Ссылка на фото</label>
-            <input type="text" id="adminImage" placeholder="https://...">
-            <div class="btn-row">
-                <button class="secondary" id="adminClose">Закрыть</button>
-                <button class="primary" id="adminAdd">➕ Добавить</button>
-            </div>
+            <label>Бренд</label><input type="text" id="adminBrand" placeholder="Nike">
+            <label>Название</label><input type="text" id="adminName" placeholder="Air Force 1">
+            <label>Цена (₽)</label><input type="number" id="adminPrice" placeholder="11990">
+            <label>Категория</label><select id="adminCategory"><option value="Кроссовки">Кроссовки</option><option value="Обувь">Обувь</option><option value="Одежда">Одежда</option><option value="Аксессуары">Аксессуары</option><option value="Сумки">Сумки</option><option value="Игрушки">Игрушки</option></select>
+            <label>Пол</label><select id="adminGender"><option value="Унисекс">Унисекс</option><option value="Мужской">Мужской</option><option value="Женский">Женский</option></select>
+            <label>Размер</label><input type="text" id="adminSize" placeholder="S, M, L, XL">
+            <label>Цвет</label><input type="text" id="adminColor" placeholder="Черный, Белый">
+            <label>Ссылка на фото</label><input type="text" id="adminImage" placeholder="https://...">
+            <div class="btn-row"><button class="secondary" id="adminClose">Закрыть</button><button class="primary" id="adminAdd">➕ Добавить</button></div>
             <button class="admin-save-btn" id="adminSave">💾 Сохранить на GitHub</button>
-            <div style="margin-top:16px;border-top:1px solid rgba(255,255,255,0.06);padding-top:12px;">
-                <div style="font-size:13px;color:rgba(255,255,255,0.4);">Список товаров (клик ✕ для удаления)</div>
-                <div class="admin-product-list" id="adminProductList"></div>
-            </div>
+            <div style="margin-top:16px;border-top:1px solid rgba(255,255,255,0.06);padding-top:12px;"><div style="font-size:13px;color:rgba(255,255,255,0.4);">Список товаров (клик ✕ для удаления)</div><div class="admin-product-list" id="adminProductList"></div></div>
         </div>
     </div>
 
-    <!-- ===== ОФОРМЛЕНИЕ ЗАКАЗА ===== -->
     <div class="checkout-modal" id="checkoutModal">
         <div class="checkout-box">
             <button class="close-checkout" id="closeCheckout">✕</button>
             <h2>📦 Оформление заказа</h2>
-
-            <label>ФИО</label>
-            <input type="text" id="checkoutName" placeholder="Иванов Иван Иванович" inputmode="text">
-
-            <label>Телефон</label>
-            <input type="tel" id="checkoutPhone" placeholder="+7 999 123 45 67" inputmode="numeric" pattern="[0-9+\s]*">
-
+            <label>ФИО</label><input type="text" id="checkoutName" placeholder="Иванов Иван Иванович" inputmode="text">
+            <label>Телефон</label><input type="tel" id="checkoutPhone" placeholder="+7 999 123 45 67" inputmode="numeric" pattern="[0-9+\s]*">
             <label>Город</label>
-            <div class="city-wrapper">
-                <input type="text" id="checkoutCity" placeholder="Например: Москва" inputmode="text" autocomplete="off">
-                <div class="city-suggestions" id="citySuggestions"></div>
-            </div>
-
-            <label>ПВЗ СДЭК</label>
-            <select id="checkoutPvz" class="pvz-select">
-                <option value="">— выберите город сначала —</option>
-            </select>
-
-            <!-- КНОПКА ПОДДЕРЖКИ -->
+            <div class="city-wrapper"><input type="text" id="checkoutCity" placeholder="Например: Москва" inputmode="text" autocomplete="off"><div class="city-suggestions" id="citySuggestions"></div></div>
+            <label>ПВЗ СДЭК</label><select id="checkoutPvz" class="pvz-select"><option value="">— выберите город сначала —</option></select>
             <button class="support-btn" id="supportBtn">💬 Поддержка (чат с менеджером)</button>
-
-            <div class="total-row">
-                <span>Итого к оплате:</span>
-                <span id="checkoutTotal">0 ₽</span>
-            </div>
-
-            <div class="btn-row">
-                <button class="secondary" id="cancelCheckout">Отмена</button>
-                <button class="primary" id="submitCheckout">✅ Подтвердить заказ</button>
-            </div>
+            <div class="total-row"><span>Итого к оплате:</span><span id="checkoutTotal">0 ₽</span></div>
+            <div class="btn-row"><button class="secondary" id="cancelCheckout">Отмена</button><button class="primary" id="submitCheckout">✅ Подтвердить заказ</button></div>
         </div>
     </div>
 
-    <!-- ===== ДЕТАЛЬНАЯ КАРТОЧКА ===== -->
     <div class="product-detail" id="productDetail">
         <div class="detail-box">
             <button class="close-btn" id="detailClose">✕</button>
@@ -1456,32 +1359,19 @@
                 <div class="detail-price" id="detailPrice">0 ₽</div>
                 <div class="detail-desc" id="detailDesc">Оригинальный стритвир с Poizon.</div>
                 <div class="detail-thumbs" id="detailThumbs"></div>
-                <label style="color:rgba(255,255,255,0.5);font-size:14px;">Размер:</label>
-                <select id="detailSize"></select>
-                <label style="color:rgba(255,255,255,0.5);font-size:14px;margin-top:8px;display:block;">Цвет:</label>
-                <select id="detailColor"></select>
+                <label style="color:rgba(255,255,255,0.5);font-size:14px;">Размер:</label><select id="detailSize"></select>
+                <label style="color:rgba(255,255,255,0.5);font-size:14px;margin-top:8px;display:block;">Цвет:</label><select id="detailColor"></select>
                 <button class="detail-add-btn" id="detailAddBtn">В корзину</button>
             </div>
         </div>
     </div>
 
-    <!-- ===== НИЖНЯЯ НАВИГАЦИЯ ===== -->
     <div class="bottom-nav" id="bottomNav">
-        <button class="nav-item active" data-tab="home">
-            <img src="glavnaya.png" alt="Главная" id="navHome"><span class="label">Главная</span>
-        </button>
-        <button class="nav-item" data-tab="catalog">
-            <img src="katalog.png" alt="Каталог" id="navCatalog"><span class="label">Каталог</span>
-        </button>
-        <button class="nav-item" data-tab="cart">
-            <img src="korzina.png" alt="Корзина" id="navCart"><span class="label">Корзина</span>
-        </button>
-        <button class="nav-item" data-tab="orders">
-            <img src="zakazi.png" alt="Заказы" id="navOrders"><span class="label">Заказы</span>
-        </button>
-        <button class="nav-item" data-tab="profile">
-            <img src="profil.png" alt="Профиль" id="navProfile"><span class="label">Профиль</span>
-        </button>
+        <button class="nav-item active" data-tab="home"><img src="glavnaya.png" alt="Главная" id="navHome"><span class="label">Главная</span></button>
+        <button class="nav-item" data-tab="catalog"><img src="katalog.png" alt="Каталог" id="navCatalog"><span class="label">Каталог</span></button>
+        <button class="nav-item" data-tab="cart"><img src="korzina.png" alt="Корзина" id="navCart"><span class="label">Корзина</span></button>
+        <button class="nav-item" data-tab="orders"><img src="zakazi.png" alt="Заказы" id="navOrders"><span class="label">Заказы</span></button>
+        <button class="nav-item" data-tab="profile"><img src="profil.png" alt="Профиль" id="navProfile"><span class="label">Профиль</span></button>
     </div>
 
     <div class="toast" id="toast"></div>
@@ -1492,7 +1382,6 @@
             const tg = window.Telegram ? Telegram.WebApp : null;
             if (tg) { tg.expand(); tg.ready(); }
 
-            // ===== ТЕМА =====
             const themeToggle = document.getElementById('themeToggle');
             let isLight = localStorage.getItem('legit_theme') === 'light';
             if (isLight) document.body.classList.add('light');
@@ -1502,7 +1391,6 @@
                 localStorage.setItem('legit_theme', isLight ? 'light' : 'dark');
             });
 
-            // ===== ДАННЫЕ =====
             let products = [];
             let cart = [];
             let orders = [];
@@ -1516,24 +1404,17 @@
             let filterPriceMin = 0;
             let filterPriceMax = Infinity;
 
-            // ===== АДМИН (только для Telegram ID 6067124228) =====
             const MY_ID = 6067124228;
             let isAdmin = false;
             try {
                 if (tg && tg.initDataUnsafe && tg.initDataUnsafe.user) {
                     if (tg.initDataUnsafe.user.id === MY_ID) isAdmin = true;
                 }
-            } catch (e) {
-                // isAdmin = true;
-            }
-            // isAdmin = true;
+            } catch (e) {}
 
             const adminBtn = document.getElementById('adminToggle');
-            if (isAdmin) {
-                adminBtn.classList.add('visible');
-            }
+            if (isAdmin) adminBtn.classList.add('visible');
 
-            // ===== ЗАГРУЗКА ТОВАРОВ =====
             async function loadProducts() {
                 try {
                     const res = await fetch('data/poizon_products_with_rub.json');
@@ -1554,34 +1435,15 @@
                         }));
                         renderAll();
                         showToast('✅ Товары загружены');
-                    } else {
-                        setDefaultProducts();
-                    }
-                } catch (e) {
-                    setDefaultProducts();
-                }
+                    } else setDefaultProducts();
+                } catch (e) { setDefaultProducts(); }
             }
 
             function setDefaultProducts() {
-                products = [
-                    { id: 1, brand: 'Nike', name: 'Air Force 1', price: 11990, category: 'Кроссовки', gender: 'Мужской',
-                        size: 'M', color: 'Белый', image: '', desc: 'Культовая классика.' },
-                    { id: 2, brand: 'Adidas', name: 'Campus', price: 10990, category: 'Кроссовки', gender: 'Унисекс',
-                        size: 'L', color: 'Черный', image: '', desc: 'Легендарные Campus.' },
-                    { id: 3, brand: 'New Balance', name: '2002R', price: 14990, category: 'Кроссовки', gender: 'Мужской',
-                        size: 'S', color: 'Серый', image: '', desc: 'Новая классика.' },
-                    { id: 4, brand: 'Jordan', name: '1 Retro', price: 17990, category: 'Кроссовки', gender: 'Мужской',
-                        size: 'XL', color: 'Красный', image: '', desc: 'Икона стиля.' },
-                    { id: 5, brand: 'Carhartt', name: 'Hoodie', price: 8990, category: 'Одежда', gender: 'Унисекс',
-                        size: 'L', color: 'Черный', image: '', desc: 'Тёплый худи.' },
-                    { id: 6, brand: 'Prada', name: 'Bag', price: 24990, category: 'Сумки', gender: 'Женский', size: 'M',
-                        color: 'Черный', image: '', desc: 'Элегантная сумка.' },
-                    { id: 7, brand: 'Gucci', name: 'Belt', price: 15990, category: 'Аксессуары', gender: 'Унисекс',
-                        size: 'L', color: 'Коричневый', image: '', desc: 'Премиальный ремень.' },
-                    { id: 8, brand: 'POP MART', name: 'Labubu', price: 2504, category: 'Игрушки', gender: 'Унисекс',
-                        size: 'M', color: 'Многоцветный', image: '', desc: 'Коллекционная фигурка.' },
-                ];
+                products = [];
                 saveProducts();
+                renderAll();
+                showToast('📦 Товары удалены');
             }
 
             function saveProducts() {
@@ -1591,7 +1453,6 @@
                 localStorage.setItem('legit_profile', JSON.stringify({ name: profileName, totalSpent: totalSpent }));
             }
 
-            // ===== ФИЛЬТРЫ =====
             function applyFilters(items) {
                 return items.filter(p => {
                     const cat = currentFilter === 'all' || p.category === currentFilter;
@@ -1605,7 +1466,6 @@
                 });
             }
 
-            // ===== ОТРИСОВКА =====
             function renderAll() {
                 renderHome();
                 renderCatalog();
@@ -1744,7 +1604,6 @@
                 }
             }
 
-            // ===== КАРТОЧКА ТОВАРА =====
             function createCard(p) {
                 const card = document.createElement('div');
                 card.className = 'card';
@@ -1755,6 +1614,7 @@
                         <div class="name">${p.name}</div>
                         <div class="price">${p.price.toLocaleString()} ₽</div>
                         <button class="add-btn" data-id="${p.id}">В корзину</button>
+                        <div class="hover-hint">Нажмите, чтобы выбрать размер</div>
                     `;
                 card.addEventListener('click', function(e) {
                     if (e.target.closest('.add-btn')) return;
@@ -1776,7 +1636,6 @@
                 return card;
             }
 
-            // ===== ДЕТАЛЬНАЯ КАРТОЧКА =====
             function openDetail(id) {
                 const p = products.find(pr => pr.id === id);
                 if (!p) return;
@@ -1824,7 +1683,6 @@
                 if (e.target === this) this.classList.remove('open');
             });
 
-            // ===== КОРЗИНА =====
             function toggleCart(id, size, btn) {
                 const idx = cart.findIndex(i => i.id === id && i.size === size);
                 if (idx > -1) {
@@ -1851,15 +1709,14 @@
                 renderAll();
             }
 
-            // ===== ПОИСК И ПОДСКАЗКИ =====
             const searchInput = document.getElementById('searchInput');
             const suggestionsEl = document.getElementById('suggestions');
 
             function getSuggestions(query) {
                 if (!query || query.length < 1) return [];
                 const q = query.toLowerCase();
-                const brands = new Set();
-                const names = new Set();
+                const brands = new Set(),
+                    names = new Set();
                 products.forEach(p => {
                     if (p.brand.toLowerCase().includes(q)) brands.add(p.brand);
                     if (p.name.toLowerCase().includes(q)) names.add(p.name);
@@ -1902,9 +1759,7 @@
             });
 
             document.addEventListener('click', function(e) {
-                if (!e.target.closest('.search-wrap')) {
-                    suggestionsEl.style.display = 'none';
-                }
+                if (!e.target.closest('.search-wrap')) suggestionsEl.style.display = 'none';
             });
 
             document.getElementById('searchBtn').addEventListener('click', function() {
@@ -1915,9 +1770,7 @@
             });
 
             searchInput.addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') {
-                    document.getElementById('searchBtn').click();
-                }
+                if (e.key === 'Enter') document.getElementById('searchBtn').click();
             });
 
             function resetSearch() {
@@ -1926,10 +1779,8 @@
                 suggestionsEl.style.display = 'none';
             }
 
-            // ===== ФИЛЬТРЫ =====
             const filterToggle = document.getElementById('filterToggle');
             const filtersPanel = document.getElementById('filtersPanel');
-
             filterToggle.addEventListener('click', function() {
                 filtersPanel.classList.toggle('open');
                 this.textContent = filtersPanel.classList.contains('open') ? '🔼 Фильтры' : '🔽 Фильтры';
@@ -1974,7 +1825,6 @@
                 showToast('✅ Фильтры сброшены');
             });
 
-            // ===== НАВИГАЦИЯ =====
             function switchTab(tab) {
                 const tabs = ['home', 'catalog', 'cart', 'orders', 'profile'];
                 const ids = ['tabHome', 'tabCatalog', 'tabCart', 'tabOrders', 'tabProfile'];
@@ -2000,7 +1850,6 @@
                 });
             });
 
-            // ===== КАТЕГОРИИ =====
             document.querySelectorAll('.cat').forEach(el => {
                 el.addEventListener('click', function() {
                     document.querySelectorAll('.cat').forEach(c => c.classList.remove('active'));
@@ -2010,7 +1859,6 @@
                 });
             });
 
-            // ===== АДМИНКА =====
             document.getElementById('adminToggle').addEventListener('click', function() {
                 if (isAdmin) {
                     document.getElementById('adminPanel').classList.toggle('open');
@@ -2060,7 +1908,6 @@
                 showToast('✅ Товар добавлен');
             });
 
-            // ===== СОХРАНЕНИЕ НА GITHUB =====
             document.getElementById('adminSave').addEventListener('click', async function() {
                 if (!isAdmin) {
                     showToast('⛔ Доступ запрещён');
@@ -2108,7 +1955,6 @@
                 }
             });
 
-            // ===== ПРОФИЛЬ =====
             document.getElementById('editProfileBtn').addEventListener('click', function() {
                 const name = prompt('Введите имя:', profileName);
                 if (name) {
@@ -2119,7 +1965,6 @@
                 }
             });
 
-            // ===== БАННЕР =====
             document.getElementById('dropBtn').addEventListener('click', () => showToast('🔥 Скоро новый дроп!'));
             document.getElementById('seeAllPopular').addEventListener('click', () => {
                 switchTab('catalog');
@@ -2127,7 +1972,6 @@
                 showToast('Все популярные товары');
             });
 
-            // ===== ОФОРМЛЕНИЕ ЗАКАЗА =====
             document.getElementById('openCheckoutBtn').addEventListener('click', function() {
                 if (cart.length === 0) {
                     showToast('Корзина пуста');
@@ -2151,20 +1995,15 @@
                 if (e.target === this) this.classList.remove('open');
             });
 
-            // ===== КНОПКА ПОДДЕРЖКИ =====
             document.getElementById('supportBtn').addEventListener('click', function() {
-                // Открываем чат с вами (замените ссылку на вашу)
-                const supportLink = 'https://t.me/VVVVVV1199';
-                window.open(supportLink, '_blank');
+                window.open('https://t.me/VVVVVV1199', '_blank');
                 showToast('💬 Открыт чат с поддержкой');
             });
 
-            // ===== ПОДСКАЗКИ ГОРОДОВ =====
             const cityInput = document.getElementById('checkoutCity');
             const citySuggestions = document.getElementById('citySuggestions');
             const pvzSelect = document.getElementById('checkoutPvz');
 
-            // База городов России (основные)
             const cities = [
                 'Москва', 'Санкт-Петербург', 'Новосибирск', 'Екатеринбург', 'Казань',
                 'Нижний Новгород', 'Челябинск', 'Самара', 'Омск', 'Ростов-на-Дону',
@@ -2180,7 +2019,6 @@
                 'Энгельс', 'Рыбинск', 'Бийск', 'Петрозаводск', 'Калуга', 'Нальчик'
             ];
 
-            // ПВЗ СДЭК по городам (пример)
             const pvzData = {
                 'Москва': [
                     'Москва, ул. Тверская, д. 1',
@@ -2275,7 +2113,6 @@
                 }, 200);
             });
 
-            // Обновляем ПВЗ при вводе города (если город из списка)
             cityInput.addEventListener('change', function() {
                 const city = this.value.trim();
                 if (city && cities.includes(city)) {
@@ -2283,14 +2120,12 @@
                 }
             });
 
-            // ===== ОТПРАВКА ЗАКАЗА =====
             document.getElementById('submitCheckout').addEventListener('click', function() {
                 const name = document.getElementById('checkoutName').value.trim();
                 const phone = document.getElementById('checkoutPhone').value.trim();
                 const city = document.getElementById('checkoutCity').value.trim();
                 const pvz = document.getElementById('checkoutPvz').value;
 
-                // === ВАЛИДАЦИЯ ===
                 const nameParts = name.split(' ');
                 const isNameValid = nameParts.length >= 2 && nameParts.every(part => part.length >= 2);
                 const isPhoneValid = /^[\d\s+]+$/.test(phone) && phone.replace(/\s/g, '').length >= 10;
@@ -2369,7 +2204,6 @@
                 showToast('✅ Заказ оформлен! Спасибо!');
             });
 
-            // ===== TOAST =====
             function showToast(msg) {
                 const t = document.getElementById('toast');
                 t.textContent = msg;
@@ -2378,7 +2212,6 @@
                 t._timer = setTimeout(() => t.classList.remove('show'), 2500);
             }
 
-            // ===== ЗАГРУЗКА =====
             try {
                 const savedCart = localStorage.getItem('legit_cart');
                 if (savedCart) cart = JSON.parse(savedCart);
@@ -2395,7 +2228,6 @@
             loadProducts();
             switchTab('home');
 
-            // fallback иконок
             document.querySelectorAll('.nav-item img').forEach(img => {
                 img.onerror = function() {
                     const map = {
