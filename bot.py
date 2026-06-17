@@ -14,7 +14,7 @@ MY_TELEGRAM_ID = 6067124228
 WEB_APP_URL = "https://addddddd2222.github.io/shop/"
 
 # ===== КЛЮЧ OPENROUTER (ВСТАВЬТЕ ВАШ КЛЮЧ СЮДА) =====
-OPENROUTER_KEY = "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"  # ← ЗАМЕНИТЕ НА РЕАЛЬНЫЙ КЛЮЧ
+OPENROUTER_KEY = ""  # ← ЗАМЕНИТЕ НА РЕАЛЬНЫЙ КЛЮЧ
 
 # ===== ИНИЦИАЛИЗАЦИЯ =====
 bot = Bot(token=BOT_TOKEN)
