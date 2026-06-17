@@ -14,7 +14,8 @@ MY_TELEGRAM_ID = 6067124228
 WEB_APP_URL = "https://addddddd2222.github.io/shop/"
 
 # ===== КЛЮЧ OPENROUTER (ВСТАВЬТЕ ВАШ КЛЮЧ СЮДА) =====
-OPENROUTER_KEY = ""  # ← ЗАМЕНИТЕ НА РЕАЛЬНЫЙ КЛЮЧ
+import os
+OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY")  # ← ЗАМЕНИТЕ НА РЕАЛЬНЫЙ КЛЮЧ
 
 # ===== ИНИЦИАЛИЗАЦИЯ =====
 bot = Bot(token=BOT_TOKEN)
