@@ -1269,7 +1269,6 @@
 
         <div class="cats" id="cats">
             <span class="cat active" data-filter="all">Все</span>
-            <span class="cat active" data-filter="all">Все</span>
             <span class="cat" data-filter="Кроссовки">Кроссовки</span>
             <span class="cat" data-filter="Обувь">Обувь</span>
             <span class="cat" data-filter="Одежда">Одежда</span>
@@ -2315,6 +2314,25 @@ document.querySelector('#checkoutBtn, #openCheckoutBtn, .checkout-btn').addEvent
         cart = [];
         saveCart();
         renderAll();
+        // ===== ОТПРАВКА В БОТА (ВСТАВЬ В КОНЕЦ ФУНКЦИИ) =====
+if (window.Telegram && Telegram.WebApp) {
+    var orderData = {
+        action: 'order',
+        items: cart.map(function(item) {
+            var p = products.find(function(pr) { return pr.id === item.id; });
+            return {
+                brand: p.brand,
+                name: p.name,
+                price: p.price,
+                size: item.size || 'M',
+                quantity: item.quantity || 1
+            };
+        }),
+        total: total
+    };
+    Telegram.WebApp.sendData(JSON.stringify(orderData));
+    console.log('✅ Заказ отправлен в бота!');
+}
     }
 });
     </script>
