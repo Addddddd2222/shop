@@ -1,44 +1,107 @@
-name: Update Products from Poizon
+import requests
+import json
+import os
 
-on:
-  schedule:
-    - cron: '0 3 1,15 * *'
-  workflow_dispatch:
+def transform_products(data):
+    """
+    Преобразует данные: переименовывает категории, добавляет 2000 к цене и добавляет размеры.
+    """
+    # Словарь для замены категорий
+    category_mapping = {
+        "Кроссовки": "Кроссовки",
+        "Обувь": "Обувь",
+        "Одежда": "Одежда",
+        "Аксессуары": "Аксессуары",
+        "Сумки": "Сумки",
+        "Игрушки": "Игрушки"
+    }
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      packages: write
+    # Маппинг размеров
+    size_map = {
+        "Кроссовки": ["36", "37", "38", "39", "40", "41", "42", "43", "44"],
+        "Обувь": ["36", "37", "38", "39", "40", "41", "42", "43", "44"],
+        "Футболки": ["S", "M", "L", "XL"],
+        "Куртки": ["S", "M", "L", "XL"],
+        "Худи": ["S", "M", "L", "XL"],
+        "Штаны": ["S", "M", "L", "XL"],
+        "Шорты": ["S", "M", "L", "XL"],
+        "Одежда": ["S", "M", "L", "XL"],
+        "Аксессуары": ["OS"],
+        "Сумки": ["OS"],
+        "Игрушки": ["OS"]
+    }
+
+    # Ключевые слова для определения категорий одежды
+    t_shirt_keywords = ["t-рубашка", "футболка", "tee", "t-shirt", "джерси"]
+    hoodie_keywords = ["свитшот", "худи", "толстовка"]
+    jacket_keywords = ["куртка", "пуховик", "пальто"]
+    shorts_keywords = ["шорты"]
+
+    def detect_clothing_category(name):
+        """Определяет уточнённую категорию для одежды по названию."""
+        name_lower = name.lower()
+        for kw in t_shirt_keywords:
+            if kw in name_lower:
+                return "Футболки"
+        for kw in hoodie_keywords:
+            if kw in name_lower:
+                return "Худи"
+        for kw in jacket_keywords:
+            if kw in name_lower:
+                return "Куртки"
+        for kw in shorts_keywords:
+            if kw in name_lower:
+                return "Шорты"
+        return "Одежда"  # Если не удалось определить
+
+    transformed = []
+    for product in data:
+        # --- Цена: +2000 ---
+        if "price_rub" in product and isinstance(product["price_rub"], (int, float)):
+            product["price_rub"] += 2000
+
+        # --- Категория ---
+        original_category = product.get("category", "Одежда")
+        new_category = original_category
+        
+        # Если исходная категория "Одежда", пытаемся уточнить по названию
+        if original_category == "Одежда":
+            new_category = detect_clothing_category(product.get("name", ""))
+        
+        product["category"] = new_category
+
+        # --- Размеры ---
+        product["sizes"] = size_map.get(new_category, ["S", "M", "L", "XL"])
+
+        transformed.append(product)
+
+    return transformed
+
+def main():
+    url = "https://cdn.jsdelivr.net/gh/Danya524/pin-up@main/poizon_products_with_rub.json"
     
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-      
-      - name: Install dependencies
-        run: |
-          pip install requests
-      
-      - name: Create data folder
-        run: |
-          mkdir -p data
-      
-      - name: Run parser
-        run: |
-          python parser.py
-      
-      - name: Commit and push changes
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add data/poizon_products_with_rub.json
-          git diff --staged --quiet || git commit -m "🔄 Автообновление товаров $(date +'%Y-%m-%d')"
-          git push
+    print(f"⬇️ Загрузка данных с {url}...")
+    try:
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Ошибка загрузки: {e}")
+        return
+
+    print(f"✅ Загружено {len(data)} товаров.")
+    print("🔄 Преобразование данных (категории, цена +2000, размеры)...")
+    
+    updated_data = transform_products(data)
+    
+    # Убедимся, что папка data существует
+    os.makedirs("data", exist_ok=True)
+    
+    output_path = "data/poizon_products_with_rub.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(updated_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"💾 Данные сохранены в {output_path}")
+
+if __name__ == "__main__":
+    main()
