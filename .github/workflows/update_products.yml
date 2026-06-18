@@ -8,10 +8,15 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -21,6 +26,10 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests
+      
+      - name: Create data folder
+        run: |
+          mkdir -p data
       
       - name: Run parser
         run: |
