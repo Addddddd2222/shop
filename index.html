@@ -2179,10 +2179,17 @@
                     date: Date.now()
                 };
 
-                if (tg && tg.sendData) {
-                    tg.sendData(JSON.stringify(orderData));
+                // ==========================================
+                // ГЛАВНОЕ: ОТПРАВКА ЗАКАЗА В БОТА
+                // ==========================================
+                if (window.Telegram && Telegram.WebApp) {
+                    Telegram.WebApp.sendData(JSON.stringify(orderData));
+                    console.log('✅ Данные отправлены в бота:', orderData);
+                } else {
+                    console.log('⚠️ Telegram WebApp не найден, заказ сохранён локально.');
                 }
 
+                // Сохраняем в историю локально
                 orders.push({
                     items: cart.map(item => {
                         const p = products.find(pr => pr.id === item.id);
@@ -2206,28 +2213,6 @@
                 document.getElementById('checkoutCity').style.borderColor = '';
                 document.getElementById('checkoutPvz').style.borderColor = '';
 
-                // ===== ОТПРАВКА В БОТА =====
-if (window.Telegram && Telegram.WebApp) {
-    // Собираем данные заказа
-    var orderData = {
-        action: 'order',
-        items: cart.map(function(item) {
-            var p = products.find(function(pr) { return pr.id === item.id; });
-            return {
-                brand: p.brand,
-                name: p.name,
-                price: p.price,
-                size: item.size || 'M',
-                quantity: item.quantity || 1
-            };
-        }),
-        total: total
-    };
-    Telegram.WebApp.sendData(JSON.stringify(orderData));
-    console.log('✅ Заказ отправлен в бота!');
-} else {
-    console.log('⚠️ Telegram WebApp не найден');
-}
                 showToast('✅ Заказ оформлен! Спасибо!');
             });
 
@@ -2274,67 +2259,6 @@ if (window.Telegram && Telegram.WebApp) {
                 this.outerHTML = '<span style="font-size:18px;">🌓</span>';
             };
         })();
-        // ===== ОТПРАВКА ЗАКАЗА В БОТА =====
-document.querySelector('#checkoutBtn, #openCheckoutBtn, .checkout-btn').addEventListener('click', function() {
-    if (cart.length === 0) {
-        showToast('Корзина пуста');
-        return;
-    }
-    
-    // Собираем данные
-    var total = cart.reduce(function(sum, item) {
-        var p = products.find(function(pr) { return pr.id === item.id; });
-        return sum + (p ? p.price * (item.quantity || 1) : 0);
-    }, 0);
-    
-    var orderData = {
-        action: 'order',
-        items: cart.map(function(item) {
-            var p = products.find(function(pr) { return pr.id === item.id; });
-            return {
-                brand: p.brand,
-                name: p.name,
-                price: p.price,
-                size: item.size || 'M',
-                quantity: item.quantity || 1
-            };
-        }),
-        total: total
-    };
-    
-    // ОТПРАВКА В БОТА
-    if (window.Telegram && Telegram.WebApp) {
-        Telegram.WebApp.sendData(JSON.stringify(orderData));
-        showToast('✅ Заказ отправлен!');
-        cart = [];
-        saveCart();
-        renderAll();
-    } else {
-        alert('Заказ:\n' + JSON.stringify(orderData, null, 2));
-        cart = [];
-        saveCart();
-        renderAll();
-        // ===== ОТПРАВКА В БОТА (ВСТАВЬ В КОНЕЦ ФУНКЦИИ) =====
-if (window.Telegram && Telegram.WebApp) {
-    var orderData = {
-        action: 'order',
-        items: cart.map(function(item) {
-            var p = products.find(function(pr) { return pr.id === item.id; });
-            return {
-                brand: p.brand,
-                name: p.name,
-                price: p.price,
-                size: item.size || 'M',
-                quantity: item.quantity || 1
-            };
-        }),
-        total: total
-    };
-    Telegram.WebApp.sendData(JSON.stringify(orderData));
-    console.log('✅ Заказ отправлен в бота!');
-}
-    }
-});
     </script>
 
 </body>
