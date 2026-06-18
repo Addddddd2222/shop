@@ -13,9 +13,9 @@ BOT_TOKEN = "8839915917:AAHRdJ6WYs4En3PQ5Fdr2cxjTFDBgyxIzZM"
 MY_TELEGRAM_ID = 6067124228
 WEB_APP_URL = "https://addddddd2222.github.io/shop/"
 
-# ===== КЛЮЧ OPENROUTER (ВСТАВЬТЕ ВАШ КЛЮЧ СЮДА) =====
+# ===== КЛЮЧ OPENROUTER =====
 import os
-OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY")  # ← ЗАМЕНИТЕ НА РЕАЛЬНЫЙ КЛЮЧ
+OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY")
 
 # ===== ИНИЦИАЛИЗАЦИЯ =====
 bot = Bot(token=BOT_TOKEN)
@@ -77,7 +77,7 @@ async def exit_ai_callback(callback_query: types.CallbackQuery, state: FSMContex
     await callback_query.message.answer("Вы вернулись в главное меню:", reply_markup=get_main_keyboard())
     await callback_query.answer()
 
-# ===== ОБРАБОТЧИК ЗАКАЗОВ ИЗ МАГАЗИНА =====
+# ===== ОБРАБОТЧИК ЗАКАЗОВ ИЗ МАГАЗИНА (С ДОБАВЛЕННЫМ УВЕДОМЛЕНИЕМ В ЧАТ) =====
 @dp.message(F.web_app_data)
 async def handle_web_app_data(message: types.Message):
     try:
@@ -106,8 +106,22 @@ async def handle_web_app_data(message: types.Message):
             f"ПВЗ СДЭК: {delivery.get('pvz', 'Не указан')}\n"
         )
 
+        # ==========================================
+        # ОТПРАВКА ТЕБЕ В ЛИЧКУ (ID)
+        # ==========================================
         await bot.send_message(chat_id=MY_TELEGRAM_ID, text=admin_message, parse_mode="Markdown")
-        await message.answer("✅ Ваш заказ принят! Спасибо за покупку в Legit Drop! 🙌")
+        
+        # ==========================================
+        # ОТПРАВКА В ЧАТ С БОТОМ (САМОМУ ПОКУПАТЕЛЮ) - ДОБАВЛЕНО
+        # ==========================================
+        user_message = (
+            f"✅ **Ваш заказ принят!**\n\n"
+            f"📦 Состав заказа:\n{items_text}\n"
+            f"💰 Общая сумма: {total} ₽\n\n"
+            f"📍 Город доставки: {delivery.get('city', 'Не указан')}\n"
+            f"📦 ПВЗ: {delivery.get('pvz', 'Не указан')}"
+        )
+        await message.answer(user_message, parse_mode="Markdown")
 
     except Exception as e:
         print(f"Ошибка: {e}")
