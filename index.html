@@ -2253,6 +2253,48 @@
                 this.outerHTML = '<span style="font-size:18px;">🌓</span>';
             };
         })();
+        // ===== ОТПРАВКА ЗАКАЗА В БОТА =====
+document.querySelector('#checkoutBtn, #openCheckoutBtn, .checkout-btn').addEventListener('click', function() {
+    if (cart.length === 0) {
+        showToast('Корзина пуста');
+        return;
+    }
+    
+    // Собираем данные
+    var total = cart.reduce(function(sum, item) {
+        var p = products.find(function(pr) { return pr.id === item.id; });
+        return sum + (p ? p.price * (item.quantity || 1) : 0);
+    }, 0);
+    
+    var orderData = {
+        action: 'order',
+        items: cart.map(function(item) {
+            var p = products.find(function(pr) { return pr.id === item.id; });
+            return {
+                brand: p.brand,
+                name: p.name,
+                price: p.price,
+                size: item.size || 'M',
+                quantity: item.quantity || 1
+            };
+        }),
+        total: total
+    };
+    
+    // ОТПРАВКА В БОТА
+    if (window.Telegram && Telegram.WebApp) {
+        Telegram.WebApp.sendData(JSON.stringify(orderData));
+        showToast('✅ Заказ отправлен!');
+        cart = [];
+        saveCart();
+        renderAll();
+    } else {
+        alert('Заказ:\n' + JSON.stringify(orderData, null, 2));
+        cart = [];
+        saveCart();
+        renderAll();
+    }
+});
     </script>
 
 </body>
