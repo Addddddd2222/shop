@@ -1,1 +1,514 @@
-[]
+[
+  {
+    "name": "New Balance NB 530 Сетчатая ткань Текстиль Низкий топ Повседневные Городские Коммутатор Беговые кроссовки Унисекс",
+    "brand": "New Balance",
+    "price_rub": 9034,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10002
+  },
+  {
+    "name": "Nike Dunk Амортизация Низкие Кеды Скейтборд Обувь Мужская Белая",
+    "brand": "Nike",
+    "price_rub": 9046,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251205/d3d8d591b1c84d89a8cf9fb036468c92.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10003
+  },
+  {
+    "name": "Champion Low Top Скейтборд Обувь Унисекс Молочно-белый",
+    "brand": "Champion",
+    "price_rub": 6745,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251213/7884558bd2a542f4a1806ed7c68ecc44.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10004
+  },
+  {
+    "name": "Nike V2K Run противоскользящий устойчивый к истиранию низкий топ повседневный городской коммутатор",
+    "brand": "Nike",
+    "price_rub": 6994,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/ba3dbabe7ce1495a94f7938f84dc2e5e.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10005
+  },
+  {
+    "name": "Nike Air Force 1 07 Амортизация Дышащая Поддержка Низкий Верх Скейтборд Обувь Мужская Чисто Белая",
+    "brand": "Nike",
+    "price_rub": 11349,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251206/e6d8ceec010d43b398a366a6dfe76265.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10006
+  },
+  {
+    "name": "Nike Dunk Амортизация Низкие Кроссовки для Скейтбординга Женские Розовые",
+    "brand": "Nike",
+    "price_rub": 8589,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251205/4bd700c930e94d10a91ec2bbcfa59997.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10007
+  },
+  {
+    "name": "Nike Air Force 1 07 Черный Warrior Винтажная модель Амортизация Дышащий Низкий верх Скейтборд Обувь Мужская Черный",
+    "brand": "Nike",
+    "price_rub": 9716,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251206/b109f99c34df43b6ae3b4465000ddd03.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10008
+  },
+  {
+    "name": "Nike Pegasus 41 Беговые кроссовки Женские Фиолетовый Черный",
+    "brand": "Nike",
+    "price_rub": 8312,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251231/4226e7621a36434b946caee970a202ee.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10009
+  },
+  {
+    "name": "New Balance NB 1906R Амортизация Поддержка Ударопрочный Низкий Топ Повседневные Беговые Кроссовки Унисекс",
+    "brand": "New Balance",
+    "price_rub": 9073,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/644ed3ac5c67457aa79d2e29337b5c8a.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10010
+  },
+  {
+    "name": "New Balance NB 1906R Low Топ Повседневные Городские Коммутатор Беговые Кроссовки Унисекс Черные",
+    "brand": "New Balance",
+    "price_rub": 8795,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/963e54866db84cd788198d38e3f666a0.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10011
+  },
+  {
+    "name": "Jordan Air Jordan 1 Амортизация Низкие Кеды Винтажные Баскетбольные Кроссовки Женские Бежевые",
+    "brand": "Jordan",
+    "price_rub": 9587,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251207/786eb96386df48b9a9c040d0b8d470da.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10012
+  },
+  {
+    "name": "Nike Dunk Low Top Скейтборд Кроссовки Мужские Белый Коричневый",
+    "brand": "Nike",
+    "price_rub": 9328,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251206/c6f9994251414818894b35a39814673f.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10013
+  },
+  {
+    "name": "Nike V2K Run Удобные Круглые Палцы Низкий Топ Повседневные Городские Коммутационные Беговые Кроссовки Мужские Синие",
+    "brand": "Nike",
+    "price_rub": 7378,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/bea2620cdc52409dbbab0e98cfbcb2fe.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10014
+  },
+  {
+    "name": "Jordan Air Jordan 1 MID Топ Винтажные Баскетбольные Кроссовки Унисекс Синий Белый",
+    "brand": "Jordan",
+    "price_rub": 8568,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251207/b4387b94876c4d2bbb11e0148b825b63.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10015
+  },
+  {
+    "name": "Ollieskate Устойчивые к истиранию противоскользящие с амортизацией низкие кеды для скейтбординга унисекс темно-серый",
+    "brand": "Ollieskate",
+    "price_rub": 6199,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251205/ecd7858a3d0c486cb2ee5456df8c5c0a.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10016
+  },
+  {
+    "name": "Champion Rochester Low Top Повседневная обувь Женская Шишечно-коричневый Льняная ткань",
+    "brand": "Champion",
+    "price_rub": 6875,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250827/1fed7987d2cb4f5aa848b4449c2c29f7.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10017
+  },
+  {
+    "name": "Champion Low Top Повседневная обувь Мужская Silver Birch Серый Молочный Белый",
+    "brand": "Champion",
+    "price_rub": 8089,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260119/d866fadc9dac4a9a81b5b3d03b34f593.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10018
+  },
+  {
+    "name": "Jordan Air Jordan 1 Амортизация Низкие Баскетбольные Кроссовки Винтажные Унисекс Оливково-зеленый Парусный Белый",
+    "brand": "Jordan",
+    "price_rub": 9569,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251207/cc57138db4e64a14bfb54619ee12303c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10019
+  },
+  {
+    "name": "Nike P 6000 Комфортная Амортизация Дышащие Светоотражающие Беговые Кроссовки Женские",
+    "brand": "Nike",
+    "price_rub": 7938,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/d6a674455a5a45e28da62e23a8b320a8.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10020
+  },
+  {
+    "name": "New Balance Wrpd Runner Комфортный Низкий Топ Повседневные Городские Беговые Кроссовки Унисекс Серый",
+    "brand": "New Balance",
+    "price_rub": 7311,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251210/8de5c381eb0c4d0a9137c1ddc93b0c95.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10021
+  },
+  {
+    "name": "Nike P 6000 Дышащие Повседневные Беговые Кроссовки Мужские Серые",
+    "brand": "Nike",
+    "price_rub": 9963,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260329/16477ce8b4ea4d67a19ff8e36b85913e.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10022
+  },
+  {
+    "name": "Jordan Air Jordan 1 Амортизация Низкие Ретро-баскетбольные кроссовки Женские Серый Белый",
+    "brand": "Jordan",
+    "price_rub": 9046,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/3274c08e9df0462688b4a6cabcdc9dd6.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10023
+  },
+  {
+    "name": "New Balance Wrpd Runner Ткань Низкий Верх Повседневные Городские Коммутационные Беговые Кроссовки Унисекс Серый Белый",
+    "brand": "New Balance",
+    "price_rub": 8717,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/ad3a4411619e4f1c8f6aa625cd67fc83.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10024
+  },
+  {
+    "name": "ASICS Гель VENTURE 6 Беговые кроссовки Унисекс Черный Лето",
+    "brand": "ASICS",
+    "price_rub": 7869,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/5f894878eb494b78b2fcaa10f60a7caa.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10025
+  },
+  {
+    "name": "Jordan Air Jordan 1 'Панда' Черный Белый Амортизация Противоскользящие Низкие Кроссовки для баскетбола Ретро Женские",
+    "brand": "Jordan",
+    "price_rub": 9493,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/a9f2c6afa0e34fe1bae24f5c0690d40a.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10026
+  },
+  {
+    "name": "Champion Rochester Low Top Повседневная обувь Женская Пшенично-желтая Молочно-белая",
+    "brand": "Champion",
+    "price_rub": 6988,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250827/9f67edff5359471893d88f7e8b8404e0.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10027
+  },
+  {
+    "name": "Nike V2K Run Мягкий и Комфортный Дышащий Низкий Топ Беговые Кроссовки Унисекс Коричневый",
+    "brand": "Nike",
+    "price_rub": 6913,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/e62f095c917749068d4725a628bcc79c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10028
+  },
+  {
+    "name": "Nike P 6000 Дышащие Беговые Кроссовки Мужские Белые Серые",
+    "brand": "Nike",
+    "price_rub": 8837,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260322/af86c5c1d9da40ba95553187a8717715.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10029
+  },
+  {
+    "name": "Asics Гель 1130 Кожа Устойчивая к абразию Низкий верх Повседневные Городские Коммутационные Беговые кроссовки Унисекс",
+    "brand": "ASICS",
+    "price_rub": 8220,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/95eb8e1278b84f7aaadb9358b4f7be39.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10030
+  },
+  {
+    "name": "Jordan Spizike Модные и удобные лоу-топы ретро баскетбольные кроссовки унисекс зелёно-чёрный",
+    "brand": "Jordan",
+    "price_rub": 8903,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250826/7df27d59d95449b5af754b24faf7a30c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10031
+  },
+  {
+    "name": "Nike ZOOM VOMERO ROAM Low Топ Повседневные Тренировочные Городские Кроссовки для Коммутирования Беговые Мужские Черные",
+    "brand": "Nike",
+    "price_rub": 9332,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/fac491f677d14942b5cbba937f402f3c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10032
+  },
+  {
+    "name": "New Balance NB 740 V2 Low Топ Беговые кроссовки Унисекс Белый",
+    "brand": "New Balance",
+    "price_rub": 8485,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251210/3906831a12ed4e66bec988b0af2a3081.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10033
+  },
+  {
+    "name": "Champion Уличный Skater 1 Скейтборд Обувь Унисекс Светлый Хаки",
+    "brand": "Champion",
+    "price_rub": 6744,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251213/f8fb9db912af49c8b698b2570646a5ec.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10034
+  },
+  {
+    "name": "Jordan Air Jordan 1 'Полосы Бизнес Костюм Элемент' Амортизация Низкий Топ Ретро Баскетбольные Кроссовки Женские",
+    "brand": "Jordan",
+    "price_rub": 9236,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260227/7a155f4313f8470395d2af3dfbc4e352.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10035
+  },
+  {
+    "name": "New Balance NB 740 Амортизация Устойчивость к истиранию Дышащие Низкие Беговые кроссовки Унисекс Бежевые",
+    "brand": "New Balance",
+    "price_rub": 8820,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/7bc6515994474480a1f8c9e844a0e1c2.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10036
+  },
+  {
+    "name": "ASICS GAME FF Текстиль Синтетическая кожа Амортизация Дышащий Низкий верх Теннисные кроссовки Мужские Белый",
+    "brand": "ASICS",
+    "price_rub": 8346,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/709a0d93e5f64b728e756edf3dd262f0.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10037
+  },
+  {
+    "name": "Nike V2K Run Low Топ Повседневный Городская Коммутация Беговые Кроссовки Женские Черные",
+    "brand": "Nike",
+    "price_rub": 6354,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251210/635f6278a0fc446aac8ae330bb6d0696.png?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10038
+  },
+  {
+    "name": "Nike Zoom Structure 25 Сетка Противоскользящий Низкий Топ Повседневный Бег на длинные дистанции Городское Коммутирование",
+    "brand": "Nike",
+    "price_rub": 10728,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230817/37889b49fc5843f9b8b49d41a35e7e39.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10039
+  },
+  {
+    "name": "Nike Dunk Ретро Кожа Винтажная модель Высокие кеды Скейтборд Обувь Мужская Черно-белая",
+    "brand": "Nike",
+    "price_rub": 8572,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251205/1c1c665740344c268ce8250bf6229227.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10040
+  },
+  {
+    "name": "Asics Gel 1130 Low Top Городская Коммутация Беговые Кроссовки Унисекс Белый Серебряный Фиолетовый",
+    "brand": "ASICS",
+    "price_rub": 8783,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260612/ee1dad121f1c4a749ae5598be77d285c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10041
+  },
+  {
+    "name": "Nike Air Zoom Spiridon Cage 2 Спортивная Аbrasion-Resistant Низкая Повседневная Обувь Унисекс",
+    "brand": "Nike",
+    "price_rub": 8055,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230608/01ca8c6b3fb44624827e9dc814224690.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10042
+  },
+  {
+    "name": "New Balance 204L Устойчивая к истиранию Низкая Повседневная Обувь Унисекс Белая",
+    "brand": "New Balance",
+    "price_rub": 10422,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251211/17c5b195737f4e25b6c5503aba018b5f.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10043
+  },
+  {
+    "name": "Jordan Luka .77 PF Универсальные удобные противоскользящие износостойкие баскетбольные кроссовки низкой высоты мужские черные",
+    "brand": "Jordan",
+    "price_rub": 7550,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251207/bcf0f7a7ce254e73944f260b8007313f.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10044
+  },
+  {
+    "name": "Jordan Air Jordan 4 Ретро Баскетбольные Кроссовки Мужские Коричневые",
+    "brand": "Jordan",
+    "price_rub": 7874,
+    "category": "Кроссовки",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/fe8837d58abe48748f5c28c8a821b54b.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10045
+  },
+  {
+    "name": "Asics GT 2160 Дышащая Обувь для водных видов спорта Унисекс Черная",
+    "brand": "ASICS",
+    "price_rub": 12544,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/8765974c77324083b564d0497b195f6e.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10046
+  },
+  {
+    "name": "Timberland Premium Leather Водонепроницаемый Устойчивый к истиранию КЛАСИЧЕСКИЙ ШОРТ Аутдор Мужской Черный",
+    "brand": "Timberland",
+    "price_rub": 15186,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230801/f67c11802a65490bb8bc10f0a3f9743b.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10047
+  },
+  {
+    "name": "Timberland Премиум Ботильоны Мужские Черные",
+    "brand": "Timberland",
+    "price_rub": 18290,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/0e01f1a41afc48038ce6c3e2953ef144.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10048
+  },
+  {
+    "name": "Nike Icon Classic Нейлоновые Платформенные Пляжные Сандалии Женские Черно-Белые",
+    "brand": "Nike",
+    "price_rub": 7148,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/b6820aa430e94b5db177b2d1f1f7eba2.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10049
+  },
+  {
+    "name": "Hotwind ЭВА противоскользящие шлепанцы мужские",
+    "brand": "Hotwind",
+    "price_rub": 5627,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251213/53c5383872534607b6087c1180edd78c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10050
+  },
+  {
+    "name": "Timberland Низкие кроссовки для скейтбординга Мужские Светлый Умбра",
+    "brand": "Timberland",
+    "price_rub": 12646,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230721/e4b1f19bea934cc7b5a1e287fb633351.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10051
+  },
+  {
+    "name": "Crocs Baya Clog ЭВА Сабо Резина Унисекс Коричневый",
+    "brand": "Crocs",
+    "price_rub": 5791,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230630/f210a8b122804828a78d19cdc8468121.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10052
+  },
+  {
+    "name": "Crocs Duet Max Clog ЭВА Сабо Резина Унисекс Бетон Серый",
+    "brand": "Crocs",
+    "price_rub": 6771,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230709/c0bf12ccc7fe423bad0dff58468c015b.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10053
+  },
+  {
+    "name": "Jordan Deja Sandal Удобные универсальные пляжные сандалии женские бежевый умбра",
+    "brand": "Jordan",
+    "price_rub": 5735,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/a7004891a1d44f47a525e4ca95badd6c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10054
+  },
+  {
+    "name": "Adidas Originals Adimule Abrasion Resistant Домашние тапочки Унисекс Коричневый",
+    "brand": "Adidas",
+    "price_rub": 9067,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251209/8103c5790dcb48ababefe096bbae65d1.jpeg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10055
+  },
+  {
+    "name": "Dickies 11,5cm Мужская ботинка Martin Черный Серый",
+    "brand": "Dickies",
+    "price_rub": 8171,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251213/2b9e9e52ad954071b13e4e5a3eeaed29.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10057
+  },
+  {
+    "name": "Mizuno Racer Trail Дышащая Поддерживающая Анти-Коллизионная Обувь для Водных Спортов Унисекс Серый Серебряный",
+    "brand": "Mizuno",
+    "price_rub": 8089,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260316/46b5f1c8e27e4bcfa3e570068319354d.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10058
+  },
+  {
+    "name": "Timberland 3 Eye Лицевая коровья кожа Повседневные Скейтбординг Кроссовки Мужские Коричневые",
+    "brand": "Timberland",
+    "price_rub": 13562,
+    "category": "Обувь",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240419/a6001ef2774c473f8b2b7789bd1d4564.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10059
+  },
+  {
+    "name": "PUMA Пуховик Зимний Мужской Черный",
+    "brand": "PUMA",
+    "price_rub": 11511,
+    "category": "Одежда",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250331/14c4e972bd28436f8b3078a8ed59b613.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10064
+  },
+  {
+    "name": "Pirkadat Унисекс Свитшоты",
+    "brand": "Pirkadat",
+    "price_rub": 4030,
+    "category": "Одежда",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250330/8361d1b4267149f5bb84c66a2db1e5ff.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10066
+  },
+  {
+    "name": "Champion T-Shirt Японская версия Унисекс Белый",
+    "brand": "Champion",
+    "price_rub": 4467,
+    "category": "Одежда",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260425/5ca1e5d68e274d7a90c2b48ff5662ee7.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10067
+  },
+  {
+    "name": "Nike Club Повседневные шорты Мужские Серые",
+    "brand": "Nike",
+    "price_rub": 5488,
+    "category": "Одежда",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250409/abc0e43b4f7e4bf9a0109b4d608955d3.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10068
+  },
+  {
+    "name": "SPRAYGROUND Повседневные шорты унисекс",
+    "brand": "SPRAYGROUND",
+    "price_rub": 5743,
+    "category": "Одежда",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250509/1f3e2f8de95d421db6e4780e0ea73fc5.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10069
+  },
+  {
+    "name": "Nike x Nocta FW25 Cardinal Stock T Рубашка Мужская",
+    "brand": "Nike",
+    "price_rub": 8458,
+    "category": "Одежда",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/intl-cut-img/322d65021b8e4f3c85f2316e297a2473.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10070
+  },
+  {
+    "name": "UNIQLO Карго Шорты Унисекс Оливковый",
+    "brand": "UNIQLO",
+    "price_rub": 6656,
+    "category": "Одежда",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250410/90d60261c11d4ef6be9e6e5683f7c2f6.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "id": 10072
+  }
+]
