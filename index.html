@@ -1,4 +1,239 @@
 <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legit Drop — Каталог товаров</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        body {
+            background: #0a0a0a;
+            color: #ffffff;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #222;
+            padding-bottom: 15px;
+        }
+        .header h1 {
+            font-size: 26px;
+            background: linear-gradient(135deg, #27e9ff, #00b8d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .header h1 img {
+            height: 34px;
+            width: auto;
+        }
+        
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+        .tab-btn {
+            background: #1a1a1a;
+            color: #aaa;
+            border: 1px solid #333;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .tab-btn:hover {
+            border-color: #27e9ff;
+            color: #fff;
+        }
+        .tab-btn.active {
+            background: #27e9ff;
+            color: #000;
+            border-color: #27e9ff;
+            font-weight: 600;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            gap: 16px;
+        }
+        .card {
+            background: #141414;
+            border-radius: 16px;
+            padding: 16px;
+            border: 1px solid #222;
+            transition: 0.2s;
+            display: none;
+        }
+        .card.show {
+            display: block;
+        }
+        .card:hover {
+            border-color: #27e9ff;
+            transform: translateY(-4px);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            background: #1a1a1a;
+        }
+        .card .brand {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+        }
+        .card .name {
+            font-size: 15px;
+            font-weight: 600;
+            margin: 4px 0;
+        }
+        .card .price {
+            font-size: 16px;
+            font-weight: 700;
+            color: #27e9ff;
+            margin-bottom: 6px;
+        }
+        .card .sizes {
+            font-size: 12px;
+            color: #666;
+        }
+        .card .id {
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px solid #2a2a2a;
+            font-size: 13px;
+            color: #aaa;
+            text-align: center;
+        }
+        .card .id span {
+            color: #27e9ff;
+            font-weight: 700;
+        }
+        .card .contact {
+            margin-top: 6px;
+            text-align: center;
+            font-size: 14px;
+            color: #aaa;
+        }
+        .card .contact a {
+            color: #27e9ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .empty {
+            color: #555;
+            text-align: center;
+            padding: 40px;
+        }
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>
+        <img src="logo.png" onerror="this.style.display='none'" alt="Logo">
+        Legit Drop
+    </h1>
+    <div style="font-size:14px; color:#888; margin-top:6px;">Оригинальный стритвир с доставкой по РФ</div>
+</div>
+
+<div class="tabs" id="categoryTabs"></div>
+
+<div class="grid" id="productGrid"></div>
+
+<script>
+    // ==================== ЗАГРУЗКА JSON ====================
+    let products = [];
+
+    async function loadProducts() {
+        try {
+            const response = await fetch('data/poizon_products_with_rub.json');
+            if (!response.ok) throw new Error('Ошибка загрузки JSON');
+            products = await response.json();
+            renderTabs();
+            renderProducts('Все');
+        } catch (error) {
+            document.getElementById('productGrid').innerHTML = `<div class="empty">⚠️ Не удалось загрузить товары.<br>Проверьте JSON в папке data.</div>`;
+            console.error(error);
+        }
+    }
+
+    // ==================== ОТРИСОВКА КНОПОК КАТЕГОРИЙ ====================
+    function renderTabs() {
+        const tabsContainer = document.getElementById('categoryTabs');
+        
+        const categories = ['Все', ...new Set(products.map(p => p.category).filter(Boolean))];
+        
+        tabsContainer.innerHTML = categories.map(cat => `
+            <button class="tab-btn ${cat === 'Все' ? 'active' : ''}" data-category="${cat}">
+                ${cat}
+            </button>
+        `).join('');
+
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                renderProducts(this.dataset.category);
+            });
+        });
+    }
+
+    // ==================== ОТРИСОВКА ТОВАРОВ ПО КАТЕГОРИИ ====================
+    function renderProducts(category) {
+        const grid = document.getElementById('productGrid');
+        
+        const filtered = category === 'Все' 
+            ? products 
+            : products.filter(p => p.category === category);
+        
+        if (filtered.length === 0) {
+            grid.innerHTML = `<div class="empty">В этой категории пока нет товаров</div>`;
+            return;
+        }
+        
+        grid.innerHTML = filtered.map(p => `
+            <div class="card show">
+                <img src="${p.image || ''}" alt="${p.name}" onerror="this.style.display='none'">
+                <div class="brand">${p.brand || ''}</div>
+                <div class="name">${p.name || ''}</div>
+                <div class="price">${p.price_rub ? p.price_rub.toLocaleString() + ' ₽' : ''}</div>
+                <div class="sizes">${p.sizes ? '📏 ' + p.sizes.slice(0, 5).join(', ') + (p.sizes.length > 5 ? '...' : '') : ''}</div>
+                <div class="id">🆔 ID товара: <span>#${p.id}</span></div>
+                <div class="contact">
+                    📦 Заказ: <a href="https://t.me/VVVVVV1199" target="_blank">@VVVVVV1199</a>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    // ==================== ЗАПУСК ====================
+    loadProducts();
+</script>
+</body>
+</html><!DOCTYPE html>
 <html lang="ru" id="theme">
 <head>
     <meta charset="UTF-8">
